@@ -10,7 +10,7 @@ def generate_launch_description():
     # Copy config files
     # dnn_node_example_path = os.path.join(get_package_prefix('dnn_node_example'), "lib/dnn_node_example")
     # os.system(f"cp -r /userdata/lrj_test_mppi/config .")
-
+    # test
     # Declare launch arguments
     launch_args = [
         DeclareLaunchArgument("dnn_example_config_file", default_value=TextSubstitution(text="config/yolov5xworkconfig.json")),
