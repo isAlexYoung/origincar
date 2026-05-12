@@ -1,0 +1,937 @@
+[0.612s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--cmake-args', '-DSTREAM_SDK_TYPE=AURORA930']
+[0.612s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=['-DSTREAM_SDK_TYPE=AURORA930'], cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffff9d529480>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff9d6bf340>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff9d6bf340>>)
+[1.811s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.812s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.812s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.813s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.813s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.813s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.813s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/userdata/lrj_test_mppi'
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.879s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.880s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.881s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ignore', 'ignore_ament_install']
+[1.882s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ignore_ament_install'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_pkg']
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_pkg'
+[1.883s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['colcon_meta']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'colcon_meta'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['ros']
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'ros'
+[1.884s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['cmake', 'python']
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'cmake'
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python'
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extensions ['python_setup_py']
+[1.885s] Level 1:colcon.colcon_core.package_identification:_identify(config) by extension 'python_setup_py'
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.886s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[1.887s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[1.888s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[1.889s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[1.890s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[1.891s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.892s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['ignore', 'ignore_ament_install']
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ignore'
+[1.893s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ignore_ament_install'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['colcon_pkg']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'colcon_pkg'
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['colcon_meta']
+[1.894s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'colcon_meta'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['ros']
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'ros'
+[1.895s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['cmake', 'python']
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'cmake'
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'python'
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extensions ['python_setup_py']
+[1.896s] Level 1:colcon.colcon_core.package_identification:_identify(models) by extension 'python_setup_py'
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.897s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.898s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.899s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.900s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/NdtLIO) by extensions ['ignore', 'ignore_ament_install']
+[1.901s] Level 1:colcon.colcon_core.package_identification:_identify(src/NdtLIO) by extension 'ignore'
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/NdtLIO) by extension 'ignore_ament_install'
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/NdtLIO) by extensions ['colcon_pkg']
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/NdtLIO) by extension 'colcon_pkg'
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/NdtLIO) by extensions ['colcon_meta']
+[1.902s] Level 1:colcon.colcon_core.package_identification:_identify(src/NdtLIO) by extension 'colcon_meta'
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/NdtLIO) by extensions ['ros']
+[1.903s] Level 1:colcon.colcon_core.package_identification:_identify(src/NdtLIO) by extension 'ros'
+[1.919s] DEBUG:colcon.colcon_core.package_identification:Package 'src/NdtLIO' with type 'ros.ament_cmake' and name 'NdtLIO'
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_base) by extensions ['ignore', 'ignore_ament_install']
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_base) by extension 'ignore'
+[1.920s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_base) by extension 'ignore_ament_install'
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_base) by extensions ['colcon_pkg']
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_base) by extension 'colcon_pkg'
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_base) by extensions ['colcon_meta']
+[1.921s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_base) by extension 'colcon_meta'
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_base) by extensions ['ros']
+[1.922s] Level 1:colcon.colcon_core.package_identification:_identify(src/car_base) by extension 'ros'
+[1.930s] DEBUG:colcon.colcon_core.package_identification:Package 'src/car_base' with type 'ros.ament_cmake' and name 'car_base'
+[1.930s] Level 1:colcon.colcon_core.package_identification:_identify(src/deptrum-ros-driver) by extensions ['ignore', 'ignore_ament_install']
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/deptrum-ros-driver) by extension 'ignore'
+[1.931s] Level 1:colcon.colcon_core.package_identification:_identify(src/deptrum-ros-driver) by extension 'ignore_ament_install'
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/deptrum-ros-driver) by extensions ['colcon_pkg']
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/deptrum-ros-driver) by extension 'colcon_pkg'
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/deptrum-ros-driver) by extensions ['colcon_meta']
+[1.932s] Level 1:colcon.colcon_core.package_identification:_identify(src/deptrum-ros-driver) by extension 'colcon_meta'
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/deptrum-ros-driver) by extensions ['ros']
+[1.933s] Level 1:colcon.colcon_core.package_identification:_identify(src/deptrum-ros-driver) by extension 'ros'
+[1.939s] DEBUG:colcon.colcon_core.package_identification:Package 'src/deptrum-ros-driver' with type 'ros.ament_cmake' and name 'deptrum-ros-driver-aurora930'
+[1.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['ignore', 'ignore_ament_install']
+[1.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'ignore'
+[1.940s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'ignore_ament_install'
+[1.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['colcon_pkg']
+[1.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'colcon_pkg'
+[1.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['colcon_meta']
+[1.941s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'colcon_meta'
+[1.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['ros']
+[1.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'ros'
+[1.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['cmake', 'python']
+[1.942s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'cmake'
+[1.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'python'
+[1.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extensions ['python_setup_py']
+[1.943s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar) by extension 'python_setup_py'
+[1.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/lslidar_driver) by extensions ['ignore', 'ignore_ament_install']
+[1.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/lslidar_driver) by extension 'ignore'
+[1.944s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/lslidar_driver) by extension 'ignore_ament_install'
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/lslidar_driver) by extensions ['colcon_pkg']
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/lslidar_driver) by extension 'colcon_pkg'
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/lslidar_driver) by extensions ['colcon_meta']
+[1.945s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/lslidar_driver) by extension 'colcon_meta'
+[1.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/lslidar_driver) by extensions ['ros']
+[1.946s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/lslidar_driver) by extension 'ros'
+[1.951s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar/lslidar_driver' with type 'ros.ament_cmake' and name 'lslidar_driver'
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/lslidar_msgs) by extensions ['ignore', 'ignore_ament_install']
+[1.952s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/lslidar_msgs) by extension 'ignore'
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/lslidar_msgs) by extension 'ignore_ament_install'
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/lslidar_msgs) by extensions ['colcon_pkg']
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/lslidar_msgs) by extension 'colcon_pkg'
+[1.953s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/lslidar_msgs) by extensions ['colcon_meta']
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/lslidar_msgs) by extension 'colcon_meta'
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/lslidar_msgs) by extensions ['ros']
+[1.954s] Level 1:colcon.colcon_core.package_identification:_identify(src/lidar/lslidar_msgs) by extension 'ros'
+[1.958s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lidar/lslidar_msgs' with type 'ros.ament_cmake' and name 'lslidar_msgs'
+[1.958s] Level 1:colcon.colcon_core.package_identification:_identify(src/lrj_nav2) by extensions ['ignore', 'ignore_ament_install']
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/lrj_nav2) by extension 'ignore'
+[1.959s] Level 1:colcon.colcon_core.package_identification:_identify(src/lrj_nav2) by extension 'ignore_ament_install'
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/lrj_nav2) by extensions ['colcon_pkg']
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/lrj_nav2) by extension 'colcon_pkg'
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/lrj_nav2) by extensions ['colcon_meta']
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/lrj_nav2) by extension 'colcon_meta'
+[1.960s] Level 1:colcon.colcon_core.package_identification:_identify(src/lrj_nav2) by extensions ['ros']
+[1.961s] Level 1:colcon.colcon_core.package_identification:_identify(src/lrj_nav2) by extension 'ros'
+[1.963s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lrj_nav2' with type 'ros.ament_cmake' and name 'lrj_nav2'
+[1.964s] Level 1:colcon.colcon_core.package_identification:_identify(src/lrj_slam) by extensions ['ignore', 'ignore_ament_install']
+[1.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/lrj_slam) by extension 'ignore'
+[1.965s] Level 1:colcon.colcon_core.package_identification:_identify(src/lrj_slam) by extension 'ignore_ament_install'
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/lrj_slam) by extensions ['colcon_pkg']
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/lrj_slam) by extension 'colcon_pkg'
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/lrj_slam) by extensions ['colcon_meta']
+[1.966s] Level 1:colcon.colcon_core.package_identification:_identify(src/lrj_slam) by extension 'colcon_meta'
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/lrj_slam) by extensions ['ros']
+[1.967s] Level 1:colcon.colcon_core.package_identification:_identify(src/lrj_slam) by extension 'ros'
+[1.969s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lrj_slam' with type 'ros.ament_cmake' and name 'lrj_slam'
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar_msg) by extensions ['ignore', 'ignore_ament_install']
+[1.970s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar_msg) by extension 'ignore'
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar_msg) by extension 'ignore_ament_install'
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar_msg) by extensions ['colcon_pkg']
+[1.971s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar_msg) by extension 'colcon_pkg'
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar_msg) by extensions ['colcon_meta']
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar_msg) by extension 'colcon_meta'
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar_msg) by extensions ['ros']
+[1.972s] Level 1:colcon.colcon_core.package_identification:_identify(src/origincar_msg) by extension 'ros'
+[1.975s] DEBUG:colcon.colcon_core.package_identification:Package 'src/origincar_msg' with type 'ros.ament_cmake' and name 'origincar_msg'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/qrcode) by extensions ['ignore', 'ignore_ament_install']
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/qrcode) by extension 'ignore'
+[1.976s] Level 1:colcon.colcon_core.package_identification:_identify(src/qrcode) by extension 'ignore_ament_install'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/qrcode) by extensions ['colcon_pkg']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/qrcode) by extension 'colcon_pkg'
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/qrcode) by extensions ['colcon_meta']
+[1.977s] Level 1:colcon.colcon_core.package_identification:_identify(src/qrcode) by extension 'colcon_meta'
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/qrcode) by extensions ['ros']
+[1.978s] Level 1:colcon.colcon_core.package_identification:_identify(src/qrcode) by extension 'ros'
+[1.984s] DEBUG:colcon.colcon_core.package_identification:Package 'src/qrcode' with type 'ros.ament_python' and name 'qrcode'
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mppi_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mppi_controller) by extension 'ignore'
+[1.985s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mppi_controller) by extension 'ignore_ament_install'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mppi_controller) by extensions ['colcon_pkg']
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mppi_controller) by extension 'colcon_pkg'
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mppi_controller) by extensions ['colcon_meta']
+[1.986s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mppi_controller) by extension 'colcon_meta'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mppi_controller) by extensions ['ros']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mppi_controller) by extension 'ros'
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mppi_controller) by extensions ['cmake', 'python']
+[1.987s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mppi_controller) by extension 'cmake'
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mppi_controller) by extension 'python'
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mppi_controller) by extensions ['python_setup_py']
+[1.988s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mppi_controller) by extension 'python_setup_py'
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mppi_controller/rm_mppi_controller) by extensions ['ignore', 'ignore_ament_install']
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mppi_controller/rm_mppi_controller) by extension 'ignore'
+[1.989s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mppi_controller/rm_mppi_controller) by extension 'ignore_ament_install'
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mppi_controller/rm_mppi_controller) by extensions ['colcon_pkg']
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mppi_controller/rm_mppi_controller) by extension 'colcon_pkg'
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mppi_controller/rm_mppi_controller) by extensions ['colcon_meta']
+[1.990s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mppi_controller/rm_mppi_controller) by extension 'colcon_meta'
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mppi_controller/rm_mppi_controller) by extensions ['ros']
+[1.991s] Level 1:colcon.colcon_core.package_identification:_identify(src/rm_mppi_controller/rm_mppi_controller) by extension 'ros'
+[1.995s] DEBUG:colcon.colcon_core.package_identification:Package 'src/rm_mppi_controller/rm_mppi_controller' with type 'ros.ament_cmake' and name 'rm_mppi_controller'
+[1.995s] Level 1:colcon.colcon_core.package_identification:_identify(src/run_car_pkg) by extensions ['ignore', 'ignore_ament_install']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/run_car_pkg) by extension 'ignore'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/run_car_pkg) by extension 'ignore_ament_install'
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/run_car_pkg) by extensions ['colcon_pkg']
+[1.996s] Level 1:colcon.colcon_core.package_identification:_identify(src/run_car_pkg) by extension 'colcon_pkg'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/run_car_pkg) by extensions ['colcon_meta']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/run_car_pkg) by extension 'colcon_meta'
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/run_car_pkg) by extensions ['ros']
+[1.997s] Level 1:colcon.colcon_core.package_identification:_identify(src/run_car_pkg) by extension 'ros'
+[2.005s] DEBUG:colcon.colcon_core.package_identification:Package 'src/run_car_pkg' with type 'ros.ament_python' and name 'run_car_pkg'
+[2.005s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extensions ['ignore', 'ignore_ament_install']
+[2.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extension 'ignore'
+[2.006s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extension 'ignore_ament_install'
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extensions ['colcon_pkg']
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extension 'colcon_pkg'
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extensions ['colcon_meta']
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extension 'colcon_meta'
+[2.007s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extensions ['ros']
+[2.008s] Level 1:colcon.colcon_core.package_identification:_identify(src/serial_ros2) by extension 'ros'
+[2.020s] DEBUG:colcon.colcon_core.package_identification:Package 'src/serial_ros2' with type 'ros.ament_cmake' and name 'serial'
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(test_scripts) by extensions ['ignore', 'ignore_ament_install']
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(test_scripts) by extension 'ignore'
+[2.021s] Level 1:colcon.colcon_core.package_identification:_identify(test_scripts) by extension 'ignore_ament_install'
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(test_scripts) by extensions ['colcon_pkg']
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(test_scripts) by extension 'colcon_pkg'
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(test_scripts) by extensions ['colcon_meta']
+[2.022s] Level 1:colcon.colcon_core.package_identification:_identify(test_scripts) by extension 'colcon_meta'
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(test_scripts) by extensions ['ros']
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(test_scripts) by extension 'ros'
+[2.023s] Level 1:colcon.colcon_core.package_identification:_identify(test_scripts) by extensions ['cmake', 'python']
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(test_scripts) by extension 'cmake'
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(test_scripts) by extension 'python'
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(test_scripts) by extensions ['python_setup_py']
+[2.024s] Level 1:colcon.colcon_core.package_identification:_identify(test_scripts) by extension 'python_setup_py'
+[2.025s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.025s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.025s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.025s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.025s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.219s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.220s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.230s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 7 installed packages in /userdata/dev_ws/install
+[2.233s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 58 installed packages in /opt/tros/humble
+[2.244s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 342 installed packages in /opt/ros/humble
+[2.259s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.601s] WARNING:colcon.colcon_core.package_selection:Some selected packages are already built in one or more underlay workspaces:
+	'serial' is in: /userdata/dev_ws/install/serial
+	'origincar_msg' is in: /userdata/dev_ws/install/origincar_msg
+If a package in a merged underlay workspace is overridden and it installs headers, then all packages in the overlay must sort their include directories by workspace order. Failure to do so may result in build failures or undefined behavior at run time.
+If the overridden package is used by another package in any underlay, then the overriding package in the overlay must be API and ABI compatible or undefined behavior at run time may occur.
+
+If you understand the risks and want to override a package anyways, add the following to the command line:
+	--allow-overriding origincar_msg serial
+
+This may be promoted to an error in a future release of colcon-override-check.
+[2.610s] Level 5:colcon.colcon_core.verb:set package 'deptrum-ros-driver-aurora930' build argument 'cmake_args' from command line to '['-DSTREAM_SDK_TYPE=AURORA930']'
+[2.610s] Level 5:colcon.colcon_core.verb:set package 'deptrum-ros-driver-aurora930' build argument 'cmake_target' from command line to 'None'
+[2.610s] Level 5:colcon.colcon_core.verb:set package 'deptrum-ros-driver-aurora930' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.611s] Level 5:colcon.colcon_core.verb:set package 'deptrum-ros-driver-aurora930' build argument 'cmake_clean_cache' from command line to 'False'
+[2.611s] Level 5:colcon.colcon_core.verb:set package 'deptrum-ros-driver-aurora930' build argument 'cmake_clean_first' from command line to 'False'
+[2.611s] Level 5:colcon.colcon_core.verb:set package 'deptrum-ros-driver-aurora930' build argument 'cmake_force_configure' from command line to 'False'
+[2.611s] Level 5:colcon.colcon_core.verb:set package 'deptrum-ros-driver-aurora930' build argument 'ament_cmake_args' from command line to 'None'
+[2.611s] Level 5:colcon.colcon_core.verb:set package 'deptrum-ros-driver-aurora930' build argument 'catkin_cmake_args' from command line to 'None'
+[2.611s] Level 5:colcon.colcon_core.verb:set package 'deptrum-ros-driver-aurora930' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.612s] DEBUG:colcon.colcon_core.verb:Building package 'deptrum-ros-driver-aurora930' with the following arguments: {'ament_cmake_args': None, 'build_base': '/userdata/lrj_test_mppi/build/deptrum-ros-driver-aurora930', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DSTREAM_SDK_TYPE=AURORA930'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930', 'merge_install': False, 'path': '/userdata/lrj_test_mppi/src/deptrum-ros-driver', 'symlink_install': False, 'test_result_base': None}
+[2.614s] Level 5:colcon.colcon_core.verb:set package 'lrj_nav2' build argument 'cmake_args' from command line to '['-DSTREAM_SDK_TYPE=AURORA930']'
+[2.615s] Level 5:colcon.colcon_core.verb:set package 'lrj_nav2' build argument 'cmake_target' from command line to 'None'
+[2.615s] Level 5:colcon.colcon_core.verb:set package 'lrj_nav2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.615s] Level 5:colcon.colcon_core.verb:set package 'lrj_nav2' build argument 'cmake_clean_cache' from command line to 'False'
+[2.615s] Level 5:colcon.colcon_core.verb:set package 'lrj_nav2' build argument 'cmake_clean_first' from command line to 'False'
+[2.615s] Level 5:colcon.colcon_core.verb:set package 'lrj_nav2' build argument 'cmake_force_configure' from command line to 'False'
+[2.615s] Level 5:colcon.colcon_core.verb:set package 'lrj_nav2' build argument 'ament_cmake_args' from command line to 'None'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'lrj_nav2' build argument 'catkin_cmake_args' from command line to 'None'
+[2.616s] Level 5:colcon.colcon_core.verb:set package 'lrj_nav2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.616s] DEBUG:colcon.colcon_core.verb:Building package 'lrj_nav2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/userdata/lrj_test_mppi/build/lrj_nav2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DSTREAM_SDK_TYPE=AURORA930'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/userdata/lrj_test_mppi/install/lrj_nav2', 'merge_install': False, 'path': '/userdata/lrj_test_mppi/src/lrj_nav2', 'symlink_install': False, 'test_result_base': None}
+[2.618s] Level 5:colcon.colcon_core.verb:set package 'lrj_slam' build argument 'cmake_args' from command line to '['-DSTREAM_SDK_TYPE=AURORA930']'
+[2.619s] Level 5:colcon.colcon_core.verb:set package 'lrj_slam' build argument 'cmake_target' from command line to 'None'
+[2.619s] Level 5:colcon.colcon_core.verb:set package 'lrj_slam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.619s] Level 5:colcon.colcon_core.verb:set package 'lrj_slam' build argument 'cmake_clean_cache' from command line to 'False'
+[2.619s] Level 5:colcon.colcon_core.verb:set package 'lrj_slam' build argument 'cmake_clean_first' from command line to 'False'
+[2.619s] Level 5:colcon.colcon_core.verb:set package 'lrj_slam' build argument 'cmake_force_configure' from command line to 'False'
+[2.619s] Level 5:colcon.colcon_core.verb:set package 'lrj_slam' build argument 'ament_cmake_args' from command line to 'None'
+[2.620s] Level 5:colcon.colcon_core.verb:set package 'lrj_slam' build argument 'catkin_cmake_args' from command line to 'None'
+[2.620s] Level 5:colcon.colcon_core.verb:set package 'lrj_slam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.620s] DEBUG:colcon.colcon_core.verb:Building package 'lrj_slam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/userdata/lrj_test_mppi/build/lrj_slam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DSTREAM_SDK_TYPE=AURORA930'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/userdata/lrj_test_mppi/install/lrj_slam', 'merge_install': False, 'path': '/userdata/lrj_test_mppi/src/lrj_slam', 'symlink_install': False, 'test_result_base': None}
+[2.623s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_args' from command line to '['-DSTREAM_SDK_TYPE=AURORA930']'
+[2.623s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_target' from command line to 'None'
+[2.623s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.623s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[2.623s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[2.624s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[2.624s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[2.624s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[2.624s] Level 5:colcon.colcon_core.verb:set package 'lslidar_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.624s] DEBUG:colcon.colcon_core.verb:Building package 'lslidar_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/userdata/lrj_test_mppi/build/lslidar_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DSTREAM_SDK_TYPE=AURORA930'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/userdata/lrj_test_mppi/install/lslidar_msgs', 'merge_install': False, 'path': '/userdata/lrj_test_mppi/src/lidar/lslidar_msgs', 'symlink_install': False, 'test_result_base': None}
+[2.627s] Level 5:colcon.colcon_core.verb:set package 'origincar_msg' build argument 'cmake_args' from command line to '['-DSTREAM_SDK_TYPE=AURORA930']'
+[2.627s] Level 5:colcon.colcon_core.verb:set package 'origincar_msg' build argument 'cmake_target' from command line to 'None'
+[2.627s] Level 5:colcon.colcon_core.verb:set package 'origincar_msg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.627s] Level 5:colcon.colcon_core.verb:set package 'origincar_msg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.628s] Level 5:colcon.colcon_core.verb:set package 'origincar_msg' build argument 'cmake_clean_first' from command line to 'False'
+[2.628s] Level 5:colcon.colcon_core.verb:set package 'origincar_msg' build argument 'cmake_force_configure' from command line to 'False'
+[2.628s] Level 5:colcon.colcon_core.verb:set package 'origincar_msg' build argument 'ament_cmake_args' from command line to 'None'
+[2.628s] Level 5:colcon.colcon_core.verb:set package 'origincar_msg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.628s] Level 5:colcon.colcon_core.verb:set package 'origincar_msg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.628s] DEBUG:colcon.colcon_core.verb:Building package 'origincar_msg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/userdata/lrj_test_mppi/build/origincar_msg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DSTREAM_SDK_TYPE=AURORA930'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/userdata/lrj_test_mppi/install/origincar_msg', 'merge_install': False, 'path': '/userdata/lrj_test_mppi/src/origincar_msg', 'symlink_install': False, 'test_result_base': None}
+[2.631s] Level 5:colcon.colcon_core.verb:set package 'qrcode' build argument 'cmake_args' from command line to '['-DSTREAM_SDK_TYPE=AURORA930']'
+[2.631s] Level 5:colcon.colcon_core.verb:set package 'qrcode' build argument 'cmake_target' from command line to 'None'
+[2.631s] Level 5:colcon.colcon_core.verb:set package 'qrcode' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.631s] Level 5:colcon.colcon_core.verb:set package 'qrcode' build argument 'cmake_clean_cache' from command line to 'False'
+[2.632s] Level 5:colcon.colcon_core.verb:set package 'qrcode' build argument 'cmake_clean_first' from command line to 'False'
+[2.632s] Level 5:colcon.colcon_core.verb:set package 'qrcode' build argument 'cmake_force_configure' from command line to 'False'
+[2.632s] Level 5:colcon.colcon_core.verb:set package 'qrcode' build argument 'ament_cmake_args' from command line to 'None'
+[2.632s] Level 5:colcon.colcon_core.verb:set package 'qrcode' build argument 'catkin_cmake_args' from command line to 'None'
+[2.632s] Level 5:colcon.colcon_core.verb:set package 'qrcode' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.632s] DEBUG:colcon.colcon_core.verb:Building package 'qrcode' with the following arguments: {'ament_cmake_args': None, 'build_base': '/userdata/lrj_test_mppi/build/qrcode', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DSTREAM_SDK_TYPE=AURORA930'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/userdata/lrj_test_mppi/install/qrcode', 'merge_install': False, 'path': '/userdata/lrj_test_mppi/src/qrcode', 'symlink_install': False, 'test_result_base': None}
+[2.635s] Level 5:colcon.colcon_core.verb:set package 'rm_mppi_controller' build argument 'cmake_args' from command line to '['-DSTREAM_SDK_TYPE=AURORA930']'
+[2.635s] Level 5:colcon.colcon_core.verb:set package 'rm_mppi_controller' build argument 'cmake_target' from command line to 'None'
+[2.635s] Level 5:colcon.colcon_core.verb:set package 'rm_mppi_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.635s] Level 5:colcon.colcon_core.verb:set package 'rm_mppi_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[2.636s] Level 5:colcon.colcon_core.verb:set package 'rm_mppi_controller' build argument 'cmake_clean_first' from command line to 'False'
+[2.636s] Level 5:colcon.colcon_core.verb:set package 'rm_mppi_controller' build argument 'cmake_force_configure' from command line to 'False'
+[2.636s] Level 5:colcon.colcon_core.verb:set package 'rm_mppi_controller' build argument 'ament_cmake_args' from command line to 'None'
+[2.636s] Level 5:colcon.colcon_core.verb:set package 'rm_mppi_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[2.636s] Level 5:colcon.colcon_core.verb:set package 'rm_mppi_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.636s] DEBUG:colcon.colcon_core.verb:Building package 'rm_mppi_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/userdata/lrj_test_mppi/build/rm_mppi_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DSTREAM_SDK_TYPE=AURORA930'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/userdata/lrj_test_mppi/install/rm_mppi_controller', 'merge_install': False, 'path': '/userdata/lrj_test_mppi/src/rm_mppi_controller/rm_mppi_controller', 'symlink_install': False, 'test_result_base': None}
+[2.639s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_args' from command line to '['-DSTREAM_SDK_TYPE=AURORA930']'
+[2.639s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target' from command line to 'None'
+[2.639s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.640s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_cache' from command line to 'False'
+[2.640s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_clean_first' from command line to 'False'
+[2.640s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'cmake_force_configure' from command line to 'False'
+[2.640s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'ament_cmake_args' from command line to 'None'
+[2.640s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_cmake_args' from command line to 'None'
+[2.640s] Level 5:colcon.colcon_core.verb:set package 'serial' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.641s] DEBUG:colcon.colcon_core.verb:Building package 'serial' with the following arguments: {'ament_cmake_args': None, 'build_base': '/userdata/lrj_test_mppi/build/serial', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DSTREAM_SDK_TYPE=AURORA930'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/userdata/lrj_test_mppi/install/serial', 'merge_install': False, 'path': '/userdata/lrj_test_mppi/src/serial_ros2', 'symlink_install': False, 'test_result_base': None}
+[2.644s] Level 5:colcon.colcon_core.verb:set package 'NdtLIO' build argument 'cmake_args' from command line to '['-DSTREAM_SDK_TYPE=AURORA930']'
+[2.644s] Level 5:colcon.colcon_core.verb:set package 'NdtLIO' build argument 'cmake_target' from command line to 'None'
+[2.644s] Level 5:colcon.colcon_core.verb:set package 'NdtLIO' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.644s] Level 5:colcon.colcon_core.verb:set package 'NdtLIO' build argument 'cmake_clean_cache' from command line to 'False'
+[2.644s] Level 5:colcon.colcon_core.verb:set package 'NdtLIO' build argument 'cmake_clean_first' from command line to 'False'
+[2.645s] Level 5:colcon.colcon_core.verb:set package 'NdtLIO' build argument 'cmake_force_configure' from command line to 'False'
+[2.645s] Level 5:colcon.colcon_core.verb:set package 'NdtLIO' build argument 'ament_cmake_args' from command line to 'None'
+[2.645s] Level 5:colcon.colcon_core.verb:set package 'NdtLIO' build argument 'catkin_cmake_args' from command line to 'None'
+[2.645s] Level 5:colcon.colcon_core.verb:set package 'NdtLIO' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.645s] DEBUG:colcon.colcon_core.verb:Building package 'NdtLIO' with the following arguments: {'ament_cmake_args': None, 'build_base': '/userdata/lrj_test_mppi/build/NdtLIO', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DSTREAM_SDK_TYPE=AURORA930'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/userdata/lrj_test_mppi/install/NdtLIO', 'merge_install': False, 'path': '/userdata/lrj_test_mppi/src/NdtLIO', 'symlink_install': False, 'test_result_base': None}
+[2.648s] Level 5:colcon.colcon_core.verb:set package 'car_base' build argument 'cmake_args' from command line to '['-DSTREAM_SDK_TYPE=AURORA930']'
+[2.648s] Level 5:colcon.colcon_core.verb:set package 'car_base' build argument 'cmake_target' from command line to 'None'
+[2.648s] Level 5:colcon.colcon_core.verb:set package 'car_base' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.648s] Level 5:colcon.colcon_core.verb:set package 'car_base' build argument 'cmake_clean_cache' from command line to 'False'
+[2.649s] Level 5:colcon.colcon_core.verb:set package 'car_base' build argument 'cmake_clean_first' from command line to 'False'
+[2.649s] Level 5:colcon.colcon_core.verb:set package 'car_base' build argument 'cmake_force_configure' from command line to 'False'
+[2.649s] Level 5:colcon.colcon_core.verb:set package 'car_base' build argument 'ament_cmake_args' from command line to 'None'
+[2.649s] Level 5:colcon.colcon_core.verb:set package 'car_base' build argument 'catkin_cmake_args' from command line to 'None'
+[2.649s] Level 5:colcon.colcon_core.verb:set package 'car_base' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.650s] DEBUG:colcon.colcon_core.verb:Building package 'car_base' with the following arguments: {'ament_cmake_args': None, 'build_base': '/userdata/lrj_test_mppi/build/car_base', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DSTREAM_SDK_TYPE=AURORA930'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/userdata/lrj_test_mppi/install/car_base', 'merge_install': False, 'path': '/userdata/lrj_test_mppi/src/car_base', 'symlink_install': False, 'test_result_base': None}
+[2.652s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_args' from command line to '['-DSTREAM_SDK_TYPE=AURORA930']'
+[2.652s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_target' from command line to 'None'
+[2.652s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.652s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_clean_cache' from command line to 'False'
+[2.653s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_clean_first' from command line to 'False'
+[2.653s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'cmake_force_configure' from command line to 'False'
+[2.653s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'ament_cmake_args' from command line to 'None'
+[2.653s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'catkin_cmake_args' from command line to 'None'
+[2.653s] Level 5:colcon.colcon_core.verb:set package 'lslidar_driver' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.654s] DEBUG:colcon.colcon_core.verb:Building package 'lslidar_driver' with the following arguments: {'ament_cmake_args': None, 'build_base': '/userdata/lrj_test_mppi/build/lslidar_driver', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DSTREAM_SDK_TYPE=AURORA930'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/userdata/lrj_test_mppi/install/lslidar_driver', 'merge_install': False, 'path': '/userdata/lrj_test_mppi/src/lidar/lslidar_driver', 'symlink_install': False, 'test_result_base': None}
+[2.656s] Level 5:colcon.colcon_core.verb:set package 'run_car_pkg' build argument 'cmake_args' from command line to '['-DSTREAM_SDK_TYPE=AURORA930']'
+[2.656s] Level 5:colcon.colcon_core.verb:set package 'run_car_pkg' build argument 'cmake_target' from command line to 'None'
+[2.656s] Level 5:colcon.colcon_core.verb:set package 'run_car_pkg' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.656s] Level 5:colcon.colcon_core.verb:set package 'run_car_pkg' build argument 'cmake_clean_cache' from command line to 'False'
+[2.657s] Level 5:colcon.colcon_core.verb:set package 'run_car_pkg' build argument 'cmake_clean_first' from command line to 'False'
+[2.657s] Level 5:colcon.colcon_core.verb:set package 'run_car_pkg' build argument 'cmake_force_configure' from command line to 'False'
+[2.657s] Level 5:colcon.colcon_core.verb:set package 'run_car_pkg' build argument 'ament_cmake_args' from command line to 'None'
+[2.657s] Level 5:colcon.colcon_core.verb:set package 'run_car_pkg' build argument 'catkin_cmake_args' from command line to 'None'
+[2.657s] Level 5:colcon.colcon_core.verb:set package 'run_car_pkg' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.658s] DEBUG:colcon.colcon_core.verb:Building package 'run_car_pkg' with the following arguments: {'ament_cmake_args': None, 'build_base': '/userdata/lrj_test_mppi/build/run_car_pkg', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': ['-DSTREAM_SDK_TYPE=AURORA930'], 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/userdata/lrj_test_mppi/install/run_car_pkg', 'merge_install': False, 'path': '/userdata/lrj_test_mppi/src/run_car_pkg', 'symlink_install': False, 'test_result_base': None}
+[2.658s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.663s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.665s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/userdata/lrj_test_mppi/src/origincar_msg' with build type 'ament_cmake'
+[2.666s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/userdata/lrj_test_mppi/src/origincar_msg'
+[2.678s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.679s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.679s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.703s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/userdata/lrj_test_mppi/src/lidar/lslidar_msgs' with build type 'ament_cmake'
+[2.703s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/userdata/lrj_test_mppi/src/lidar/lslidar_msgs'
+[2.705s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.706s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.727s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/userdata/lrj_test_mppi/src/serial_ros2' with build type 'ament_cmake'
+[2.728s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/userdata/lrj_test_mppi/src/serial_ros2'
+[2.729s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.730s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.752s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/userdata/lrj_test_mppi/src/deptrum-ros-driver' with build type 'ament_cmake'
+[2.753s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/userdata/lrj_test_mppi/src/deptrum-ros-driver'
+[2.754s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.755s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.777s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/userdata/lrj_test_mppi/src/lrj_nav2' with build type 'ament_cmake'
+[2.779s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/userdata/lrj_test_mppi/src/lrj_nav2'
+[2.780s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.781s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.803s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/userdata/lrj_test_mppi/src/lrj_slam' with build type 'ament_cmake'
+[2.803s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/userdata/lrj_test_mppi/src/lrj_slam'
+[2.805s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.806s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.828s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/userdata/lrj_test_mppi/src/qrcode' with build type 'ament_python'
+[2.829s] Level 1:colcon.colcon_core.shell:create_environment_hook('qrcode', 'ament_prefix_path')
+[2.831s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/qrcode/share/qrcode/hook/ament_prefix_path.ps1'
+[2.835s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/qrcode/share/qrcode/hook/ament_prefix_path.dsv'
+[2.838s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/qrcode/share/qrcode/hook/ament_prefix_path.sh'
+[2.843s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.843s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.864s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/userdata/lrj_test_mppi/src/rm_mppi_controller/rm_mppi_controller' with build type 'ament_cmake'
+[2.865s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/userdata/lrj_test_mppi/src/rm_mppi_controller/rm_mppi_controller'
+[2.867s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.867s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.916s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/lrj_test_mppi/build/origincar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/origincar_msg -- -j8 -l8
+[2.934s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/lrj_test_mppi/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/lslidar_msgs -- -j8 -l8
+[2.947s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/lrj_test_mppi/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/serial -- -j8 -l8
+[2.957s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/lrj_test_mppi/build/deptrum-ros-driver-aurora930': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/lrj_test_mppi/src/deptrum-ros-driver -DSTREAM_SDK_TYPE=AURORA930 -DCMAKE_INSTALL_PREFIX=/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930
+[2.975s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/lrj_test_mppi/build/lrj_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/lrj_nav2 -- -j8 -l8
+[2.992s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/lrj_test_mppi/build/lrj_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/lrj_slam -- -j8 -l8
+[5.271s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/userdata/lrj_test_mppi/src/qrcode'
+[5.272s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[5.273s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[5.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/lrj_test_mppi/build/rm_mppi_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/rm_mppi_controller -- -j8 -l8
+[5.426s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/lrj_test_mppi/build/lrj_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/lrj_slam -- -j8 -l8
+[5.431s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/lrj_test_mppi/build/lrj_slam': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/lrj_test_mppi/build/lrj_slam
+[5.455s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/lrj_test_mppi/build/lrj_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/lrj_nav2 -- -j8 -l8
+[5.463s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/lrj_test_mppi/build/lrj_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/lrj_test_mppi/build/lrj_nav2
+[5.466s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/lrj_test_mppi/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/serial -- -j8 -l8
+[5.472s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/lrj_test_mppi/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/lrj_test_mppi/build/serial
+[5.478s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lrj_slam)
+[5.518s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lrj_slam' for CMake module files
+[5.527s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lrj_slam' for CMake config files
+[5.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('lrj_slam', 'cmake_prefix_path')
+[5.537s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/hook/cmake_prefix_path.ps1'
+[5.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/hook/cmake_prefix_path.dsv'
+[5.548s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/hook/cmake_prefix_path.sh'
+[5.555s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lrj_slam/bin'
+[5.556s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lrj_slam/lib/pkgconfig/lrj_slam.pc'
+[5.558s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lrj_slam/lib/python3.10/site-packages'
+[5.561s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lrj_slam/bin'
+[5.564s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/package.ps1'
+[5.576s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/package.dsv'
+[5.581s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/package.sh'
+[5.589s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/package.bash'
+[5.596s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/package.zsh'
+[5.604s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/lrj_test_mppi/install/lrj_slam/share/colcon-core/packages/lrj_slam)
+[5.609s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lrj_slam)
+[5.612s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lrj_slam' for CMake module files
+[5.617s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lrj_slam' for CMake config files
+[5.620s] Level 1:colcon.colcon_core.shell:create_environment_hook('lrj_slam', 'cmake_prefix_path')
+[5.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/hook/cmake_prefix_path.ps1'
+[5.627s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/hook/cmake_prefix_path.dsv'
+[5.631s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/hook/cmake_prefix_path.sh'
+[5.643s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lrj_slam/bin'
+[5.644s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lrj_slam/lib/pkgconfig/lrj_slam.pc'
+[5.646s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lrj_slam/lib/python3.10/site-packages'
+[5.650s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lrj_slam/bin'
+[5.654s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/package.ps1'
+[5.662s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/package.dsv'
+[5.670s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/package.sh'
+[5.677s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/package.bash'
+[5.681s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/package.zsh'
+[5.693s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/lrj_test_mppi/build/lrj_slam' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/lrj_test_mppi/build/lrj_slam
+[5.694s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/lrj_test_mppi/install/lrj_slam/share/colcon-core/packages/lrj_slam)
+[5.698s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[5.701s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/serial' for CMake module files
+[5.708s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/serial' for CMake config files
+[5.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/lrj_test_mppi/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/lrj_test_mppi/build/serial
+[5.714s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[5.716s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[5.719s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[5.722s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[5.726s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/serial/lib'
+[5.728s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/serial/bin'
+[5.728s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/serial/lib/pkgconfig/serial.pc'
+[5.730s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/serial/lib/python3.10/site-packages'
+[5.733s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/serial/bin'
+[5.735s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/serial/share/serial/package.ps1'
+[5.740s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/lrj_test_mppi/install/serial/share/serial/package.dsv'
+[5.743s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/serial/share/serial/package.sh'
+[5.747s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/serial/share/serial/package.bash'
+[5.750s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/serial/share/serial/package.zsh'
+[5.753s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/lrj_test_mppi/install/serial/share/colcon-core/packages/serial)
+[5.757s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(serial)
+[5.759s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/serial' for CMake module files
+[5.763s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/serial' for CMake config files
+[5.765s] Level 1:colcon.colcon_core.shell:create_environment_hook('serial', 'cmake_prefix_path')
+[5.767s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/serial/share/serial/hook/cmake_prefix_path.ps1'
+[5.770s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/serial/share/serial/hook/cmake_prefix_path.dsv'
+[5.773s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/serial/share/serial/hook/cmake_prefix_path.sh'
+[5.777s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/serial/lib'
+[5.778s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/serial/bin'
+[5.778s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/serial/lib/pkgconfig/serial.pc'
+[5.780s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/serial/lib/python3.10/site-packages'
+[5.783s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/serial/bin'
+[5.785s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/serial/share/serial/package.ps1'
+[5.790s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/lrj_test_mppi/install/serial/share/serial/package.dsv'
+[5.794s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/serial/share/serial/package.sh'
+[5.797s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/serial/share/serial/package.bash'
+[5.800s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/serial/share/serial/package.zsh'
+[5.803s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/lrj_test_mppi/install/serial/share/colcon-core/packages/serial)
+[5.809s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lrj_nav2)
+[5.811s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lrj_nav2' for CMake module files
+[5.815s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/lrj_test_mppi/build/lrj_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/lrj_test_mppi/build/lrj_nav2
+[5.817s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lrj_nav2' for CMake config files
+[5.818s] Level 1:colcon.colcon_core.shell:create_environment_hook('lrj_nav2', 'cmake_prefix_path')
+[5.820s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/hook/cmake_prefix_path.ps1'
+[5.823s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/hook/cmake_prefix_path.dsv'
+[5.825s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/hook/cmake_prefix_path.sh'
+[5.828s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lrj_nav2/bin'
+[5.829s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lrj_nav2/lib/pkgconfig/lrj_nav2.pc'
+[5.831s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lrj_nav2/lib/python3.10/site-packages'
+[5.833s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lrj_nav2/bin'
+[5.836s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/package.ps1'
+[5.840s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/package.dsv'
+[5.843s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/package.sh'
+[5.845s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/package.bash'
+[5.848s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/package.zsh'
+[5.850s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/lrj_test_mppi/install/lrj_nav2/share/colcon-core/packages/lrj_nav2)
+[5.853s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lrj_nav2)
+[5.855s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lrj_nav2' for CMake module files
+[5.858s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lrj_nav2' for CMake config files
+[5.859s] Level 1:colcon.colcon_core.shell:create_environment_hook('lrj_nav2', 'cmake_prefix_path')
+[5.861s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/hook/cmake_prefix_path.ps1'
+[5.864s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/hook/cmake_prefix_path.dsv'
+[5.866s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/hook/cmake_prefix_path.sh'
+[5.870s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lrj_nav2/bin'
+[5.871s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lrj_nav2/lib/pkgconfig/lrj_nav2.pc'
+[5.872s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lrj_nav2/lib/python3.10/site-packages'
+[5.875s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lrj_nav2/bin'
+[5.877s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/package.ps1'
+[5.881s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/package.dsv'
+[5.885s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/package.sh'
+[5.888s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/package.bash'
+[5.892s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/package.zsh'
+[5.895s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/lrj_test_mppi/install/lrj_nav2/share/colcon-core/packages/lrj_nav2)
+[5.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/lrj_test_mppi/build/rm_mppi_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/rm_mppi_controller -- -j8 -l8
+[5.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/lrj_test_mppi/build/rm_mppi_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/lrj_test_mppi/build/rm_mppi_controller
+[5.915s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/lrj_test_mppi/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/lslidar_msgs -- -j8 -l8
+[5.924s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/lrj_test_mppi/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/lrj_test_mppi/build/lslidar_msgs
+[5.927s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/lrj_test_mppi/build/origincar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/origincar_msg -- -j8 -l8
+[5.935s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/lrj_test_mppi/build/origincar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/lrj_test_mppi/build/origincar_msg
+[5.967s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_mppi_controller)
+[5.969s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/rm_mppi_controller' for CMake module files
+[5.979s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/rm_mppi_controller' for CMake config files
+[5.985s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_mppi_controller', 'cmake_prefix_path')
+[5.986s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/hook/cmake_prefix_path.ps1'
+[5.991s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/hook/cmake_prefix_path.dsv'
+[5.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/hook/cmake_prefix_path.sh'
+[6.001s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/rm_mppi_controller/lib'
+[6.002s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_mppi_controller', 'ld_library_path_lib')
+[6.004s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/hook/ld_library_path_lib.ps1'
+[6.008s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/hook/ld_library_path_lib.dsv'
+[6.012s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/hook/ld_library_path_lib.sh'
+[6.017s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/rm_mppi_controller/bin'
+[6.017s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/rm_mppi_controller/lib/pkgconfig/rm_mppi_controller.pc'
+[6.019s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/rm_mppi_controller/lib/python3.10/site-packages'
+[6.024s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/rm_mppi_controller/bin'
+[6.025s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/lrj_test_mppi/build/rm_mppi_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/lrj_test_mppi/build/rm_mppi_controller
+[6.027s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/package.ps1'
+[6.034s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/package.dsv'
+[6.043s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/package.sh'
+[6.048s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/package.bash'
+[6.054s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/package.zsh'
+[6.058s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/lrj_test_mppi/install/rm_mppi_controller/share/colcon-core/packages/rm_mppi_controller)
+[6.066s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(rm_mppi_controller)
+[6.068s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/rm_mppi_controller' for CMake module files
+[6.079s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/rm_mppi_controller' for CMake config files
+[6.086s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_mppi_controller', 'cmake_prefix_path')
+[6.088s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/hook/cmake_prefix_path.ps1'
+[6.092s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/hook/cmake_prefix_path.dsv'
+[6.097s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/hook/cmake_prefix_path.sh'
+[6.103s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/rm_mppi_controller/lib'
+[6.104s] Level 1:colcon.colcon_core.shell:create_environment_hook('rm_mppi_controller', 'ld_library_path_lib')
+[6.106s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/hook/ld_library_path_lib.ps1'
+[6.111s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/hook/ld_library_path_lib.dsv'
+[6.116s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/hook/ld_library_path_lib.sh'
+[6.122s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/rm_mppi_controller/bin'
+[6.123s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/rm_mppi_controller/lib/pkgconfig/rm_mppi_controller.pc'
+[6.125s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/rm_mppi_controller/lib/python3.10/site-packages'
+[6.128s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/rm_mppi_controller/bin'
+[6.132s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/package.ps1'
+[6.139s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/package.dsv'
+[6.146s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/package.sh'
+[6.151s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/package.bash'
+[6.154s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/package.zsh'
+[6.159s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/lrj_test_mppi/install/rm_mppi_controller/share/colcon-core/packages/rm_mppi_controller)
+[6.404s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(origincar_msg)
+[6.406s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/origincar_msg' for CMake module files
+[6.422s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/origincar_msg' for CMake config files
+[6.432s] Level 1:colcon.colcon_core.shell:create_environment_hook('origincar_msg', 'cmake_prefix_path')
+[6.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/origincar_msg/share/origincar_msg/hook/cmake_prefix_path.ps1'
+[6.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/origincar_msg/share/origincar_msg/hook/cmake_prefix_path.dsv'
+[6.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/origincar_msg/share/origincar_msg/hook/cmake_prefix_path.sh'
+[6.449s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/origincar_msg/lib'
+[6.450s] Level 1:colcon.colcon_core.shell:create_environment_hook('origincar_msg', 'ld_library_path_lib')
+[6.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/origincar_msg/share/origincar_msg/hook/ld_library_path_lib.ps1'
+[6.456s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/origincar_msg/share/origincar_msg/hook/ld_library_path_lib.dsv'
+[6.459s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/origincar_msg/share/origincar_msg/hook/ld_library_path_lib.sh'
+[6.464s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/origincar_msg/bin'
+[6.464s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/origincar_msg/lib/pkgconfig/origincar_msg.pc'
+[6.466s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/origincar_msg/lib/python3.10/site-packages'
+[6.469s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/origincar_msg/bin'
+[6.472s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/origincar_msg/share/origincar_msg/package.ps1'
+[6.477s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/lrj_test_mppi/install/origincar_msg/share/origincar_msg/package.dsv'
+[6.482s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/origincar_msg/share/origincar_msg/package.sh'
+[6.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/lrj_test_mppi/build/origincar_msg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/lrj_test_mppi/build/origincar_msg
+[6.488s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/origincar_msg/share/origincar_msg/package.bash'
+[6.492s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/origincar_msg/share/origincar_msg/package.zsh'
+[6.496s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/lrj_test_mppi/install/origincar_msg/share/colcon-core/packages/origincar_msg)
+[6.502s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(origincar_msg)
+[6.504s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/origincar_msg' for CMake module files
+[6.516s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/origincar_msg' for CMake config files
+[6.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('origincar_msg', 'cmake_prefix_path')
+[6.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/origincar_msg/share/origincar_msg/hook/cmake_prefix_path.ps1'
+[6.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/origincar_msg/share/origincar_msg/hook/cmake_prefix_path.dsv'
+[6.525s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/origincar_msg/share/origincar_msg/hook/cmake_prefix_path.sh'
+[6.528s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/origincar_msg/lib'
+[6.529s] Level 1:colcon.colcon_core.shell:create_environment_hook('origincar_msg', 'ld_library_path_lib')
+[6.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/origincar_msg/share/origincar_msg/hook/ld_library_path_lib.ps1'
+[6.533s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/origincar_msg/share/origincar_msg/hook/ld_library_path_lib.dsv'
+[6.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/origincar_msg/share/origincar_msg/hook/ld_library_path_lib.sh'
+[6.538s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/origincar_msg/bin'
+[6.538s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/origincar_msg/lib/pkgconfig/origincar_msg.pc'
+[6.540s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/origincar_msg/lib/python3.10/site-packages'
+[6.543s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/origincar_msg/bin'
+[6.545s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/origincar_msg/share/origincar_msg/package.ps1'
+[6.549s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/lrj_test_mppi/install/origincar_msg/share/origincar_msg/package.dsv'
+[6.553s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/origincar_msg/share/origincar_msg/package.sh'
+[6.557s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/origincar_msg/share/origincar_msg/package.bash'
+[6.560s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/origincar_msg/share/origincar_msg/package.zsh'
+[6.563s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/lrj_test_mppi/install/origincar_msg/share/colcon-core/packages/origincar_msg)
+[6.567s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/userdata/lrj_test_mppi/src/NdtLIO' with build type 'ament_cmake'
+[6.567s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/userdata/lrj_test_mppi/src/NdtLIO'
+[6.569s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.569s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.595s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/userdata/lrj_test_mppi/src/car_base' with build type 'ament_cmake'
+[6.596s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/userdata/lrj_test_mppi/src/car_base'
+[6.598s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.598s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.626s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/userdata/lrj_test_mppi/src/run_car_pkg' with build type 'ament_python'
+[6.627s] Level 1:colcon.colcon_core.shell:create_environment_hook('run_car_pkg', 'ament_prefix_path')
+[6.629s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/run_car_pkg/share/run_car_pkg/hook/ament_prefix_path.ps1'
+[6.633s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/run_car_pkg/share/run_car_pkg/hook/ament_prefix_path.dsv'
+[6.636s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/run_car_pkg/share/run_car_pkg/hook/ament_prefix_path.sh'
+[6.640s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.640s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.668s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_msgs)
+[6.670s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_msgs' for CMake module files
+[6.673s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/lrj_test_mppi/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/lrj_test_mppi/build/lslidar_msgs
+[6.677s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_msgs' for CMake config files
+[6.679s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'cmake_prefix_path')
+[6.681s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.ps1'
+[6.684s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.dsv'
+[6.686s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.sh'
+[6.690s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_msgs/lib'
+[6.690s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'ld_library_path_lib')
+[6.692s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.ps1'
+[6.695s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.dsv'
+[6.697s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.sh'
+[6.701s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_msgs/bin'
+[6.701s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_msgs/lib/pkgconfig/lslidar_msgs.pc'
+[6.703s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_msgs/lib/python3.10/site-packages'
+[6.706s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_msgs/bin'
+[6.709s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/package.ps1'
+[6.714s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/package.dsv'
+[6.718s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/package.sh'
+[6.721s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/package.bash'
+[6.724s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/package.zsh'
+[6.727s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/lrj_test_mppi/install/lslidar_msgs/share/colcon-core/packages/lslidar_msgs)
+[6.731s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_msgs)
+[6.733s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_msgs' for CMake module files
+[6.738s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_msgs' for CMake config files
+[6.740s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'cmake_prefix_path')
+[6.742s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.ps1'
+[6.745s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.dsv'
+[6.747s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/hook/cmake_prefix_path.sh'
+[6.752s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_msgs/lib'
+[6.752s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_msgs', 'ld_library_path_lib')
+[6.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.ps1'
+[6.758s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.dsv'
+[6.760s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/hook/ld_library_path_lib.sh'
+[6.763s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_msgs/bin'
+[6.764s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_msgs/lib/pkgconfig/lslidar_msgs.pc'
+[6.766s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_msgs/lib/python3.10/site-packages'
+[6.768s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_msgs/bin'
+[6.771s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/package.ps1'
+[6.776s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/package.dsv'
+[6.780s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/package.sh'
+[6.784s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/package.bash'
+[6.787s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/package.zsh'
+[6.791s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/lrj_test_mppi/install/lslidar_msgs/share/colcon-core/packages/lslidar_msgs)
+[6.798s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/userdata/lrj_test_mppi/src/lidar/lslidar_driver' with build type 'ament_cmake'
+[6.799s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/userdata/lrj_test_mppi/src/lidar/lslidar_driver'
+[6.801s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.801s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.846s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/lrj_test_mppi/build/NdtLIO': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/origincar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/origincar_msg:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/origincar_msg/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/origincar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /userdata/lrj_test_mppi/src/NdtLIO -DSTREAM_SDK_TYPE=AURORA930 -DCMAKE_INSTALL_PREFIX=/userdata/lrj_test_mppi/install/NdtLIO
+[6.865s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/lrj_test_mppi/build/car_base': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/origincar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/origincar_msg:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/serial/lib:/userdata/lrj_test_mppi/install/origincar_msg/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/origincar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /userdata/lrj_test_mppi/src/car_base -DSTREAM_SDK_TYPE=AURORA930 -DCMAKE_INSTALL_PREFIX=/userdata/lrj_test_mppi/install/car_base
+[9.002s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/userdata/lrj_test_mppi/src/run_car_pkg'
+[9.004s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[9.004s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[9.098s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/lrj_test_mppi/build/lslidar_driver': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /userdata/lrj_test_mppi/src/lidar/lslidar_driver -DSTREAM_SDK_TYPE=AURORA930 -DCMAKE_INSTALL_PREFIX=/userdata/lrj_test_mppi/install/lslidar_driver
+[9.103s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/lrj_test_mppi/src/qrcode': PYTHONPATH=/userdata/lrj_test_mppi/build/qrcode/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/lrj_test_mppi/install/qrcode/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/qrcode build --build-base /userdata/lrj_test_mppi/build/qrcode/build install --record /userdata/lrj_test_mppi/build/qrcode/install.log --single-version-externally-managed install_data
+[10.517s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/lrj_test_mppi/build/car_base' returned '0': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/origincar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/origincar_msg:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/serial/lib:/userdata/lrj_test_mppi/install/origincar_msg/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/origincar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /userdata/lrj_test_mppi/src/car_base -DSTREAM_SDK_TYPE=AURORA930 -DCMAKE_INSTALL_PREFIX=/userdata/lrj_test_mppi/install/car_base
+[10.522s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/lrj_test_mppi/build/car_base': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/origincar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/origincar_msg:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/serial/lib:/userdata/lrj_test_mppi/install/origincar_msg/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/origincar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /userdata/lrj_test_mppi/build/car_base -- -j8 -l8
+[10.903s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/lrj_test_mppi/build/car_base' returned '0': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/origincar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/origincar_msg:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/serial/lib:/userdata/lrj_test_mppi/install/origincar_msg/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/origincar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /userdata/lrj_test_mppi/build/car_base -- -j8 -l8
+[10.913s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/lrj_test_mppi/build/car_base': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/origincar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/origincar_msg:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/serial/lib:/userdata/lrj_test_mppi/install/origincar_msg/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/origincar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /userdata/lrj_test_mppi/build/car_base
+[10.969s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_base)
+[10.971s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/car_base' for CMake module files
+[10.978s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/car_base' for CMake config files
+[10.979s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_base', 'cmake_prefix_path')
+[10.982s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/car_base/share/car_base/hook/cmake_prefix_path.ps1'
+[10.986s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/car_base/share/car_base/hook/cmake_prefix_path.dsv'
+[10.988s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/car_base/share/car_base/hook/cmake_prefix_path.sh'
+[10.993s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/car_base/lib'
+[10.994s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/car_base/bin'
+[10.995s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/car_base/lib/pkgconfig/car_base.pc'
+[10.998s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/car_base/lib/python3.10/site-packages'
+[11.001s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/car_base/bin'
+[11.004s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/car_base/share/car_base/package.ps1'
+[11.012s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/lrj_test_mppi/install/car_base/share/car_base/package.dsv'
+[11.018s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/car_base/share/car_base/package.sh'
+[11.022s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/car_base/share/car_base/package.bash'
+[11.027s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/car_base/share/car_base/package.zsh'
+[11.028s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/lrj_test_mppi/build/car_base' returned '0': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/origincar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/origincar_msg:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/serial/lib:/userdata/lrj_test_mppi/install/origincar_msg/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/origincar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /userdata/lrj_test_mppi/build/car_base
+[11.031s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/lrj_test_mppi/install/car_base/share/colcon-core/packages/car_base)
+[11.036s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(car_base)
+[11.039s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/car_base' for CMake module files
+[11.044s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/car_base' for CMake config files
+[11.047s] Level 1:colcon.colcon_core.shell:create_environment_hook('car_base', 'cmake_prefix_path')
+[11.049s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/car_base/share/car_base/hook/cmake_prefix_path.ps1'
+[11.055s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/car_base/share/car_base/hook/cmake_prefix_path.dsv'
+[11.060s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/car_base/share/car_base/hook/cmake_prefix_path.sh'
+[11.066s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/car_base/lib'
+[11.068s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/car_base/bin'
+[11.069s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/car_base/lib/pkgconfig/car_base.pc'
+[11.071s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/car_base/lib/python3.10/site-packages'
+[11.075s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/car_base/bin'
+[11.077s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/car_base/share/car_base/package.ps1'
+[11.082s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/lrj_test_mppi/install/car_base/share/car_base/package.dsv'
+[11.086s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/car_base/share/car_base/package.sh'
+[11.090s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/car_base/share/car_base/package.bash'
+[11.094s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/car_base/share/car_base/package.zsh'
+[11.099s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/lrj_test_mppi/install/car_base/share/colcon-core/packages/car_base)
+[11.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/lrj_test_mppi/build/NdtLIO' returned '0': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/origincar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/origincar_msg:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/origincar_msg/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/origincar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /userdata/lrj_test_mppi/src/NdtLIO -DSTREAM_SDK_TYPE=AURORA930 -DCMAKE_INSTALL_PREFIX=/userdata/lrj_test_mppi/install/NdtLIO
+[11.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/lrj_test_mppi/build/NdtLIO': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/origincar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/origincar_msg:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/origincar_msg/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/origincar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /userdata/lrj_test_mppi/build/NdtLIO -- -j8 -l8
+[11.647s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/qrcode' for CMake module files
+[11.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/lrj_test_mppi/src/qrcode' returned '0': PYTHONPATH=/userdata/lrj_test_mppi/build/qrcode/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/lrj_test_mppi/install/qrcode/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/qrcode build --build-base /userdata/lrj_test_mppi/build/qrcode/build install --record /userdata/lrj_test_mppi/build/qrcode/install.log --single-version-externally-managed install_data
+[11.653s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/qrcode' for CMake config files
+[11.657s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/qrcode/lib'
+[11.658s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/qrcode/bin'
+[11.658s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/qrcode/lib/pkgconfig/qrcode.pc'
+[11.660s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/qrcode/lib/python3.10/site-packages'
+[11.660s] Level 1:colcon.colcon_core.shell:create_environment_hook('qrcode', 'pythonpath')
+[11.662s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/qrcode/share/qrcode/hook/pythonpath.ps1'
+[11.665s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/qrcode/share/qrcode/hook/pythonpath.dsv'
+[11.667s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/qrcode/share/qrcode/hook/pythonpath.sh'
+[11.672s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/qrcode/bin'
+[11.673s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(qrcode)
+[11.675s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/qrcode/share/qrcode/package.ps1'
+[11.680s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/lrj_test_mppi/install/qrcode/share/qrcode/package.dsv'
+[11.683s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/qrcode/share/qrcode/package.sh'
+[11.686s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/qrcode/share/qrcode/package.bash'
+[11.689s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/qrcode/share/qrcode/package.zsh'
+[11.692s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/lrj_test_mppi/install/qrcode/share/colcon-core/packages/qrcode)
+[12.027s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/lrj_test_mppi/build/deptrum-ros-driver-aurora930' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/lrj_test_mppi/src/deptrum-ros-driver -DSTREAM_SDK_TYPE=AURORA930 -DCMAKE_INSTALL_PREFIX=/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930
+[12.035s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/lrj_test_mppi/build/deptrum-ros-driver-aurora930': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/deptrum-ros-driver-aurora930 -- -j8 -l8
+[12.120s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/lrj_test_mppi/build/NdtLIO' returned '0': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/origincar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/origincar_msg:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/origincar_msg/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/origincar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /userdata/lrj_test_mppi/build/NdtLIO -- -j8 -l8
+[12.131s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/lrj_test_mppi/build/NdtLIO': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/origincar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/origincar_msg:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/origincar_msg/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/origincar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /userdata/lrj_test_mppi/build/NdtLIO
+[12.144s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/lrj_test_mppi/src/run_car_pkg': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/origincar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/origincar_msg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/origincar_msg/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/build/run_car_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/lrj_test_mppi/install/run_car_pkg/lib/python3.10/site-packages:/userdata/lrj_test_mppi/install/origincar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/run_car_pkg build --build-base /userdata/lrj_test_mppi/build/run_car_pkg/build install --record /userdata/lrj_test_mppi/build/run_car_pkg/install.log --single-version-externally-managed install_data
+[12.187s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(NdtLIO)
+[12.189s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/NdtLIO' for CMake module files
+[12.193s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/lrj_test_mppi/build/NdtLIO' returned '0': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/origincar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/origincar_msg:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/origincar_msg/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/origincar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /userdata/lrj_test_mppi/build/NdtLIO
+[12.195s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/NdtLIO' for CMake config files
+[12.197s] Level 1:colcon.colcon_core.shell:create_environment_hook('NdtLIO', 'cmake_prefix_path')
+[12.199s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/hook/cmake_prefix_path.ps1'
+[12.202s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/hook/cmake_prefix_path.dsv'
+[12.205s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/hook/cmake_prefix_path.sh'
+[12.208s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/NdtLIO/lib'
+[12.209s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/NdtLIO/bin'
+[12.210s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/NdtLIO/lib/pkgconfig/NdtLIO.pc'
+[12.212s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/NdtLIO/lib/python3.10/site-packages'
+[12.215s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/NdtLIO/bin'
+[12.217s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/package.ps1'
+[12.222s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/package.dsv'
+[12.225s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/package.sh'
+[12.229s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/package.bash'
+[12.232s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/package.zsh'
+[12.234s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/lrj_test_mppi/install/NdtLIO/share/colcon-core/packages/NdtLIO)
+[12.238s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(NdtLIO)
+[12.240s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/NdtLIO' for CMake module files
+[12.244s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/NdtLIO' for CMake config files
+[12.246s] Level 1:colcon.colcon_core.shell:create_environment_hook('NdtLIO', 'cmake_prefix_path')
+[12.248s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/hook/cmake_prefix_path.ps1'
+[12.251s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/hook/cmake_prefix_path.dsv'
+[12.254s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/hook/cmake_prefix_path.sh'
+[12.259s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/NdtLIO/lib'
+[12.260s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/NdtLIO/bin'
+[12.261s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/NdtLIO/lib/pkgconfig/NdtLIO.pc'
+[12.263s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/NdtLIO/lib/python3.10/site-packages'
+[12.266s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/NdtLIO/bin'
+[12.268s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/package.ps1'
+[12.273s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/package.dsv'
+[12.285s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/package.sh'
+[12.289s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/package.bash'
+[12.293s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/package.zsh'
+[12.298s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/lrj_test_mppi/install/NdtLIO/share/colcon-core/packages/NdtLIO)
+[14.750s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/run_car_pkg' for CMake module files
+[14.753s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/run_car_pkg' for CMake config files
+[14.757s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/run_car_pkg/lib'
+[14.758s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/run_car_pkg/bin'
+[14.759s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/run_car_pkg/lib/pkgconfig/run_car_pkg.pc'
+[14.761s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/run_car_pkg/lib/python3.10/site-packages'
+[14.763s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/lrj_test_mppi/src/run_car_pkg' returned '0': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/origincar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/origincar_msg:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/origincar_msg/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/build/run_car_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/lrj_test_mppi/install/run_car_pkg/lib/python3.10/site-packages:/userdata/lrj_test_mppi/install/origincar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/run_car_pkg build --build-base /userdata/lrj_test_mppi/build/run_car_pkg/build install --record /userdata/lrj_test_mppi/build/run_car_pkg/install.log --single-version-externally-managed install_data
+[14.765s] Level 1:colcon.colcon_core.shell:create_environment_hook('run_car_pkg', 'pythonpath')
+[14.768s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/run_car_pkg/share/run_car_pkg/hook/pythonpath.ps1'
+[14.777s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/run_car_pkg/share/run_car_pkg/hook/pythonpath.dsv'
+[14.781s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/run_car_pkg/share/run_car_pkg/hook/pythonpath.sh'
+[14.789s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/run_car_pkg/bin'
+[14.790s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(run_car_pkg)
+[14.794s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/run_car_pkg/share/run_car_pkg/package.ps1'
+[14.802s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/lrj_test_mppi/install/run_car_pkg/share/run_car_pkg/package.dsv'
+[14.806s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/run_car_pkg/share/run_car_pkg/package.sh'
+[14.811s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/run_car_pkg/share/run_car_pkg/package.bash'
+[14.814s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/run_car_pkg/share/run_car_pkg/package.zsh'
+[14.817s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/lrj_test_mppi/install/run_car_pkg/share/colcon-core/packages/run_car_pkg)
+[20.853s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/lrj_test_mppi/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /userdata/lrj_test_mppi/src/lidar/lslidar_driver -DSTREAM_SDK_TYPE=AURORA930 -DCMAKE_INSTALL_PREFIX=/userdata/lrj_test_mppi/install/lslidar_driver
+[20.856s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/lrj_test_mppi/build/lslidar_driver': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /userdata/lrj_test_mppi/build/lslidar_driver -- -j8 -l8
+[21.558s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/lrj_test_mppi/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /userdata/lrj_test_mppi/build/lslidar_driver -- -j8 -l8
+[21.563s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/lrj_test_mppi/build/lslidar_driver': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /userdata/lrj_test_mppi/build/lslidar_driver
+[21.632s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_driver)
+[21.634s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_driver' for CMake module files
+[21.641s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_driver' for CMake config files
+[21.646s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_driver', 'cmake_prefix_path')
+[21.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.ps1'
+[21.661s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.dsv'
+[21.666s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.sh'
+[21.673s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_driver/lib'
+[21.675s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_driver/bin'
+[21.676s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_driver/lib/pkgconfig/lslidar_driver.pc'
+[21.678s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_driver/lib/python3.10/site-packages'
+[21.682s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_driver/bin'
+[21.685s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/package.ps1'
+[21.693s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/package.dsv'
+[21.698s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/package.sh'
+[21.704s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/package.bash'
+[21.709s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/package.zsh'
+[21.714s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/lrj_test_mppi/install/lslidar_driver/share/colcon-core/packages/lslidar_driver)
+[21.722s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lslidar_driver)
+[21.726s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_driver' for CMake module files
+[21.733s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_driver' for CMake config files
+[21.738s] Level 1:colcon.colcon_core.shell:create_environment_hook('lslidar_driver', 'cmake_prefix_path')
+[21.741s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.ps1'
+[21.747s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.dsv'
+[21.748s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/lrj_test_mppi/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /userdata/lrj_test_mppi/build/lslidar_driver
+[21.752s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/hook/cmake_prefix_path.sh'
+[21.757s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_driver/lib'
+[21.758s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_driver/bin'
+[21.758s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_driver/lib/pkgconfig/lslidar_driver.pc'
+[21.760s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_driver/lib/python3.10/site-packages'
+[21.764s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/lslidar_driver/bin'
+[21.766s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/package.ps1'
+[21.772s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/package.dsv'
+[21.777s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/package.sh'
+[21.782s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/package.bash'
+[21.786s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/package.zsh'
+[21.791s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/lrj_test_mppi/install/lslidar_driver/share/colcon-core/packages/lslidar_driver)
+[97.702s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/lrj_test_mppi/build/deptrum-ros-driver-aurora930' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/deptrum-ros-driver-aurora930 -- -j8 -l8
+[97.710s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/userdata/lrj_test_mppi/build/deptrum-ros-driver-aurora930': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/lrj_test_mppi/build/deptrum-ros-driver-aurora930
+[98.015s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(deptrum-ros-driver-aurora930)
+[98.017s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930' for CMake module files
+[98.020s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/userdata/lrj_test_mppi/build/deptrum-ros-driver-aurora930' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/lrj_test_mppi/build/deptrum-ros-driver-aurora930
+[98.022s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930' for CMake config files
+[98.024s] Level 1:colcon.colcon_core.shell:create_environment_hook('deptrum-ros-driver-aurora930', 'cmake_prefix_path')
+[98.025s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/hook/cmake_prefix_path.ps1'
+[98.028s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/hook/cmake_prefix_path.dsv'
+[98.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/hook/cmake_prefix_path.sh'
+[98.036s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/lib'
+[98.037s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/bin'
+[98.037s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/lib/pkgconfig/deptrum-ros-driver-aurora930.pc'
+[98.040s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/lib/python3.10/site-packages'
+[98.045s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/bin'
+[98.049s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/package.ps1'
+[98.054s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/package.dsv'
+[98.056s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/package.sh'
+[98.059s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/package.bash'
+[98.061s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/package.zsh'
+[98.064s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/share/colcon-core/packages/deptrum-ros-driver-aurora930)
+[98.068s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(deptrum-ros-driver-aurora930)
+[98.069s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930' for CMake module files
+[98.074s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930' for CMake config files
+[98.075s] Level 1:colcon.colcon_core.shell:create_environment_hook('deptrum-ros-driver-aurora930', 'cmake_prefix_path')
+[98.077s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/hook/cmake_prefix_path.ps1'
+[98.080s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/hook/cmake_prefix_path.dsv'
+[98.082s] INFO:colcon.colcon_core.shell:Creating environment hook '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/hook/cmake_prefix_path.sh'
+[98.085s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/lib'
+[98.086s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/bin'
+[98.086s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/lib/pkgconfig/deptrum-ros-driver-aurora930.pc'
+[98.088s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/lib/python3.10/site-packages'
+[98.090s] Level 1:colcon.colcon_core.environment:checking '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/bin'
+[98.093s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/package.ps1'
+[98.097s] INFO:colcon.colcon_core.shell:Creating package descriptor '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/package.dsv'
+[98.100s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/package.sh'
+[98.102s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/package.bash'
+[98.104s] INFO:colcon.colcon_core.shell:Creating package script '/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/share/deptrum-ros-driver-aurora930/package.zsh'
+[98.107s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/share/colcon-core/packages/deptrum-ros-driver-aurora930)
+[98.108s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[98.109s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[98.110s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[98.110s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[98.115s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[98.117s] INFO:colcon.colcon_core.shell:Creating prefix script '/userdata/lrj_test_mppi/install/local_setup.ps1'
+[98.124s] INFO:colcon.colcon_core.shell:Creating prefix util module '/userdata/lrj_test_mppi/install/_local_setup_util_ps1.py'
+[98.134s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/userdata/lrj_test_mppi/install/setup.ps1'
+[98.144s] INFO:colcon.colcon_core.shell:Creating prefix script '/userdata/lrj_test_mppi/install/local_setup.sh'
+[98.147s] INFO:colcon.colcon_core.shell:Creating prefix util module '/userdata/lrj_test_mppi/install/_local_setup_util_sh.py'
+[98.150s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/userdata/lrj_test_mppi/install/setup.sh'
+[98.158s] INFO:colcon.colcon_core.shell:Creating prefix script '/userdata/lrj_test_mppi/install/local_setup.bash'
+[98.161s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/userdata/lrj_test_mppi/install/setup.bash'
+[98.169s] INFO:colcon.colcon_core.shell:Creating prefix script '/userdata/lrj_test_mppi/install/local_setup.zsh'
+[98.171s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/userdata/lrj_test_mppi/install/setup.zsh'

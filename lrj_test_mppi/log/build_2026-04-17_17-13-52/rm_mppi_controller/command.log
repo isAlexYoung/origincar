@@ -1,0 +1,1 @@
+Invoking command in '/userdata/lrj_test_mppi/build/rm_mppi_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/lrj_test_mppi/src/rm_mppi_controller/rm_mppi_controller -DSTREAM_SDK_TYPE=AURORA930 -DCMAKE_INSTALL_PREFIX=/userdata/lrj_test_mppi/install/rm_mppi_controller

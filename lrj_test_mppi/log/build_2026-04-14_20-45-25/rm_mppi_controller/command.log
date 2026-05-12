@@ -1,0 +1,4 @@
+Invoking command in '/userdata/lrj_test_mppi/build/rm_mppi_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/rm_mppi_controller -- -j8 -l8
+Invoked command in '/userdata/lrj_test_mppi/build/rm_mppi_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/rm_mppi_controller -- -j8 -l8
+Invoking command in '/userdata/lrj_test_mppi/build/rm_mppi_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/lrj_test_mppi/build/rm_mppi_controller
+Invoked command in '/userdata/lrj_test_mppi/build/rm_mppi_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/lrj_test_mppi/build/rm_mppi_controller

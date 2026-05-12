@@ -1,0 +1,5 @@
+/userdata/lrj_test_mppi/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:msg/LslidarDifop.idl
+/userdata/lrj_test_mppi/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:msg/LslidarPacket.idl
+/userdata/lrj_test_mppi/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:msg/LslidarPoint.idl
+/userdata/lrj_test_mppi/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:msg/LslidarScan.idl
+/userdata/lrj_test_mppi/build/lslidar_msgs/rosidl_adapter/lslidar_msgs:msg/LslidarSweep.idl

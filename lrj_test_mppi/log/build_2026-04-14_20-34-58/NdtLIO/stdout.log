@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target NDT_LIO[0m
+[  8%] [32mBuilding CXX object src/CMakeFiles/NDT_LIO.dir/ndt_inc.cpp.o[0m
+[ 16%] [32mBuilding CXX object src/CMakeFiles/NDT_LIO.dir/occupancy_map.cpp.o[0m
+[ 25%] [32mBuilding CXX object src/CMakeFiles/NDT_LIO.dir/eskf.cpp.o[0m
+[ 41%] [32mBuilding CXX object src/CMakeFiles/NDT_LIO.dir/ieskf.cpp.o[0m
+[ 33%] [32mBuilding CXX object src/CMakeFiles/NDT_LIO.dir/incrementalNDTLO.cpp.o[0m

@@ -1,0 +1,33 @@
+[0.219s] Invoking command in '/userdata/lrj_test_mppi/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/serial -- -j8 -l8
+[2.658s] [100%] Built target serial
+[2.737s] Invoked command in '/userdata/lrj_test_mppi/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/serial -- -j8 -l8
+[2.743s] Invoking command in '/userdata/lrj_test_mppi/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/lrj_test_mppi/build/serial
+[2.900s] -- Install configuration: ""
+[2.903s] -- Up-to-date: /userdata/lrj_test_mppi/install/serial/lib/libserial.a
+[2.905s] -- Up-to-date: /userdata/lrj_test_mppi/install/serial/share/serial/environment/library_path.sh
+[2.909s] -- Up-to-date: /userdata/lrj_test_mppi/install/serial/share/serial/environment/library_path.dsv
+[2.909s] -- Up-to-date: /userdata/lrj_test_mppi/install/serial/include/serial
+[2.910s] -- Up-to-date: /userdata/lrj_test_mppi/install/serial/include/serial/impl
+[2.911s] -- Up-to-date: /userdata/lrj_test_mppi/install/serial/include/serial/impl/unix.h
+[2.913s] -- Up-to-date: /userdata/lrj_test_mppi/install/serial/include/serial/impl/win.h
+[2.915s] -- Up-to-date: /userdata/lrj_test_mppi/install/serial/include/serial/serial.h
+[2.919s] -- Up-to-date: /userdata/lrj_test_mppi/install/serial/include/serial/v8stdint.h
+[2.926s] -- Up-to-date: /userdata/lrj_test_mppi/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[2.931s] -- Up-to-date: /userdata/lrj_test_mppi/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[2.933s] -- Up-to-date: /userdata/lrj_test_mppi/install/serial/share/serial/environment/ament_prefix_path.sh
+[2.934s] -- Up-to-date: /userdata/lrj_test_mppi/install/serial/share/serial/environment/ament_prefix_path.dsv
+[2.936s] -- Up-to-date: /userdata/lrj_test_mppi/install/serial/share/serial/environment/path.sh
+[2.940s] -- Up-to-date: /userdata/lrj_test_mppi/install/serial/share/serial/environment/path.dsv
+[2.941s] -- Up-to-date: /userdata/lrj_test_mppi/install/serial/share/serial/local_setup.bash
+[2.942s] -- Up-to-date: /userdata/lrj_test_mppi/install/serial/share/serial/local_setup.sh
+[2.946s] -- Up-to-date: /userdata/lrj_test_mppi/install/serial/share/serial/local_setup.zsh
+[2.948s] -- Up-to-date: /userdata/lrj_test_mppi/install/serial/share/serial/local_setup.dsv
+[2.950s] -- Installing: /userdata/lrj_test_mppi/install/serial/share/serial/package.dsv
+[2.957s] -- Up-to-date: /userdata/lrj_test_mppi/install/serial/share/ament_index/resource_index/packages/serial
+[2.957s] -- Up-to-date: /userdata/lrj_test_mppi/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[2.958s] -- Up-to-date: /userdata/lrj_test_mppi/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[2.959s] -- Up-to-date: /userdata/lrj_test_mppi/install/serial/share/serial/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.959s] -- Up-to-date: /userdata/lrj_test_mppi/install/serial/share/serial/cmake/serialConfig.cmake
+[2.960s] -- Up-to-date: /userdata/lrj_test_mppi/install/serial/share/serial/cmake/serialConfig-version.cmake
+[2.961s] -- Up-to-date: /userdata/lrj_test_mppi/install/serial/share/serial/package.xml
+[2.981s] Invoked command in '/userdata/lrj_test_mppi/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/lrj_test_mppi/build/serial

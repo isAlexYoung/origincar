@@ -1,0 +1,119 @@
+[0.000000] (-) TimerEvent: {}
+[0.001216] (-) JobUnselected: {'identifier': 'NdtLIO'}
+[0.002256] (-) JobUnselected: {'identifier': 'car_base'}
+[0.003252] (-) JobUnselected: {'identifier': 'deptrum-ros-driver-aurora930'}
+[0.004301] (-) JobUnselected: {'identifier': 'lrj_nav2'}
+[0.004570] (-) JobUnselected: {'identifier': 'lrj_slam'}
+[0.004779] (-) JobUnselected: {'identifier': 'lslidar_driver'}
+[0.004975] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.005345] (-) JobUnselected: {'identifier': 'origincar_msg'}
+[0.005545] (-) JobUnselected: {'identifier': 'qrcode'}
+[0.005743] (-) JobUnselected: {'identifier': 'rm_mppi_controller'}
+[0.005942] (-) JobUnselected: {'identifier': 'run_car_pkg'}
+[0.006138] (-) JobUnselected: {'identifier': 'serial'}
+[0.006334] (-) JobUnselected: {'identifier': 'vlm_demo'}
+[0.006546] (qrcode_copy) JobQueued: {'identifier': 'qrcode_copy', 'dependencies': OrderedDict([('origincar_msg', '/userdata/lrj_test_mppi/install/origincar_msg')])}
+[0.006773] (qrcode_copy) JobStarted: {'identifier': 'qrcode_copy'}
+[0.098761] (-) TimerEvent: {}
+[0.199685] (-) TimerEvent: {}
+[0.300718] (-) TimerEvent: {}
+[0.401547] (-) TimerEvent: {}
+[0.502445] (-) TimerEvent: {}
+[0.603390] (-) TimerEvent: {}
+[0.704212] (-) TimerEvent: {}
+[0.805356] (-) TimerEvent: {}
+[0.906199] (-) TimerEvent: {}
+[1.007162] (-) TimerEvent: {}
+[1.108164] (-) TimerEvent: {}
+[1.209159] (-) TimerEvent: {}
+[1.309962] (-) TimerEvent: {}
+[1.410793] (-) TimerEvent: {}
+[1.511765] (-) TimerEvent: {}
+[1.612735] (-) TimerEvent: {}
+[1.713644] (-) TimerEvent: {}
+[1.814556] (-) TimerEvent: {}
+[1.915450] (-) TimerEvent: {}
+[2.016438] (-) TimerEvent: {}
+[2.117400] (-) TimerEvent: {}
+[2.218389] (-) TimerEvent: {}
+[2.319368] (-) TimerEvent: {}
+[2.420262] (-) TimerEvent: {}
+[2.521375] (-) TimerEvent: {}
+[2.622248] (-) TimerEvent: {}
+[2.723212] (-) TimerEvent: {}
+[2.824250] (-) TimerEvent: {}
+[2.925268] (-) TimerEvent: {}
+[3.026091] (-) TimerEvent: {}
+[3.126921] (-) TimerEvent: {}
+[3.227908] (-) TimerEvent: {}
+[3.328895] (-) TimerEvent: {}
+[3.429749] (-) TimerEvent: {}
+[3.530577] (-) TimerEvent: {}
+[3.631420] (-) TimerEvent: {}
+[3.733670] (-) TimerEvent: {}
+[3.834504] (-) TimerEvent: {}
+[3.935443] (-) TimerEvent: {}
+[4.036262] (-) TimerEvent: {}
+[4.137103] (-) TimerEvent: {}
+[4.238083] (-) TimerEvent: {}
+[4.338918] (-) TimerEvent: {}
+[4.439797] (-) TimerEvent: {}
+[4.540798] (-) TimerEvent: {}
+[4.641823] (-) TimerEvent: {}
+[4.742625] (-) TimerEvent: {}
+[4.843433] (-) TimerEvent: {}
+[4.944442] (-) TimerEvent: {}
+[5.045416] (-) TimerEvent: {}
+[5.146362] (-) TimerEvent: {}
+[5.247323] (-) TimerEvent: {}
+[5.286369] (qrcode_copy) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/qrcode_copy', 'build', '--build-base', '/userdata/lrj_test_mppi/build/qrcode_copy/build', 'install', '--record', '/userdata/lrj_test_mppi/build/qrcode_copy/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/userdata/lrj_test_mppi/src/qrcode_copy', 'env': {'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '192.168.144.30 11003 22', 'XDG_SESSION_TYPE': 'tty', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/userdata/lrj_test_mppi/install/origincar_msg/lib:/userdata/lrj_test_mppi/install/serial/lib:/userdata/lrj_test_mppi/install/rm_mppi_controller/lib:/userdata/lrj_test_mppi/install/lslidar_msgs/lib:/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib', 'BROWSER': '/root/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'OLDPWD': '/userdata', 'TERM_PROGRAM_VERSION': '1.117.0', 'VSCODE_IPC_HOOK_CLI': '/run/user/0/vscode-ipc-3f5548ef-cb39-4e8d-a1eb-e29de9e40153.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': '', 'TROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/userdata/lrj_test_mppi/install:/userdata/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '5', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/root/.vscode-server/cli/servers/Stable-10c8e557c8b9f9ed0a87f61f1c9a44bde731c409/server/bin/remote-cli:/opt/tros/humble/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/userdata/lrj_test_mppi/install/vlm_demo:/userdata/lrj_test_mppi/install/car_base:/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/run_car_pkg:/userdata/lrj_test_mppi/install/rm_mppi_controller:/userdata/lrj_test_mppi/install/qrcode_copy:/userdata/lrj_test_mppi/install/qrcode:/userdata/lrj_test_mppi/install/NdtLIO:/userdata/lrj_test_mppi/install/origincar_msg:/userdata/lrj_test_mppi/install/lslidar_driver:/userdata/lrj_test_mppi/install/lslidar_msgs:/userdata/lrj_test_mppi/install/lrj_slam:/userdata/lrj_test_mppi/install/lrj_nav2:/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble', 'SHELL': '/bin/bash', 'PWD': '/userdata/lrj_test_mppi/build/qrcode_copy', 'SSH_CONNECTION': '192.168.144.30 11003 192.168.144.31 22', 'PYTHONPATH': '/userdata/lrj_test_mppi/build/qrcode_copy/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/lrj_test_mppi/install/qrcode_copy/lib/python3.10/site-packages:/userdata/lrj_test_mppi/install/vlm_demo/lib/python3.10/site-packages:/userdata/lrj_test_mppi/install/run_car_pkg/lib/python3.10/site-packages:/userdata/lrj_test_mppi/install/qrcode_copy/lib/python3.10/site-packages:/userdata/lrj_test_mppi/install/qrcode/lib/python3.10/site-packages:/userdata/lrj_test_mppi/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/userdata/lrj_test_mppi/install/origincar_msg:/userdata/lrj_test_mppi/install/car_base:/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/rm_mppi_controller:/userdata/lrj_test_mppi/install/NdtLIO:/userdata/lrj_test_mppi/install/lslidar_driver:/userdata/lrj_test_mppi/install/lslidar_msgs:/userdata/lrj_test_mppi/install/lrj_slam:/userdata/lrj_test_mppi/install/lrj_nav2:/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs'}, 'shell': False}
+[5.347508] (-) TimerEvent: {}
+[5.448618] (-) TimerEvent: {}
+[5.549557] (-) TimerEvent: {}
+[5.650608] (-) TimerEvent: {}
+[5.751648] (-) TimerEvent: {}
+[5.852653] (-) TimerEvent: {}
+[5.953810] (-) TimerEvent: {}
+[6.054910] (-) TimerEvent: {}
+[6.155905] (-) TimerEvent: {}
+[6.257026] (-) TimerEvent: {}
+[6.358292] (-) TimerEvent: {}
+[6.459150] (-) TimerEvent: {}
+[6.559973] (-) TimerEvent: {}
+[6.660858] (-) TimerEvent: {}
+[6.761734] (-) TimerEvent: {}
+[6.862701] (-) TimerEvent: {}
+[6.963517] (-) TimerEvent: {}
+[7.064449] (-) TimerEvent: {}
+[7.165597] (-) TimerEvent: {}
+[7.266515] (-) TimerEvent: {}
+[7.325101] (qrcode_copy) StdoutLine: {'line': b'running egg_info\n'}
+[7.331139] (qrcode_copy) StdoutLine: {'line': b'writing ../../build/qrcode_copy/qrcode_copy.egg-info/PKG-INFO\n'}
+[7.332422] (qrcode_copy) StdoutLine: {'line': b'writing dependency_links to ../../build/qrcode_copy/qrcode_copy.egg-info/dependency_links.txt\n'}
+[7.333671] (qrcode_copy) StdoutLine: {'line': b'writing entry points to ../../build/qrcode_copy/qrcode_copy.egg-info/entry_points.txt\n'}
+[7.334754] (qrcode_copy) StdoutLine: {'line': b'writing requirements to ../../build/qrcode_copy/qrcode_copy.egg-info/requires.txt\n'}
+[7.335865] (qrcode_copy) StdoutLine: {'line': b'writing top-level names to ../../build/qrcode_copy/qrcode_copy.egg-info/top_level.txt\n'}
+[7.348053] (qrcode_copy) StdoutLine: {'line': b"reading manifest file '../../build/qrcode_copy/qrcode_copy.egg-info/SOURCES.txt'\n"}
+[7.353683] (qrcode_copy) StdoutLine: {'line': b"writing manifest file '../../build/qrcode_copy/qrcode_copy.egg-info/SOURCES.txt'\n"}
+[7.354760] (qrcode_copy) StdoutLine: {'line': b'running build\n'}
+[7.355622] (qrcode_copy) StdoutLine: {'line': b'running build_py\n'}
+[7.356273] (qrcode_copy) StdoutLine: {'line': b'copying qrcode_copy/qrcode_copy.py -> /userdata/lrj_test_mppi/build/qrcode_copy/build/lib/qrcode_copy\n'}
+[7.357017] (qrcode_copy) StdoutLine: {'line': b'running install\n'}
+[7.358732] (qrcode_copy) StdoutLine: {'line': b'running install_lib\n'}
+[7.363360] (qrcode_copy) StdoutLine: {'line': b'copying /userdata/lrj_test_mppi/build/qrcode_copy/build/lib/qrcode_copy/qrcode_copy.py -> /userdata/lrj_test_mppi/install/qrcode_copy/lib/python3.10/site-packages/qrcode_copy\n'}
+[7.366671] (-) TimerEvent: {}
+[7.367851] (qrcode_copy) StdoutLine: {'line': b'byte-compiling /userdata/lrj_test_mppi/install/qrcode_copy/lib/python3.10/site-packages/qrcode_copy/qrcode_copy.py to qrcode_copy.cpython-310.pyc\n'}
+[7.374437] (qrcode_copy) StdoutLine: {'line': b'running install_data\n'}
+[7.376400] (qrcode_copy) StdoutLine: {'line': b'running install_egg_info\n'}
+[7.388007] (qrcode_copy) StdoutLine: {'line': b"removing '/userdata/lrj_test_mppi/install/qrcode_copy/lib/python3.10/site-packages/qrcode_copy-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[7.389551] (qrcode_copy) StdoutLine: {'line': b'Copying ../../build/qrcode_copy/qrcode_copy.egg-info to /userdata/lrj_test_mppi/install/qrcode_copy/lib/python3.10/site-packages/qrcode_copy-0.0.0-py3.10.egg-info\n'}
+[7.394093] (qrcode_copy) StdoutLine: {'line': b'running install_scripts\n'}
+[7.466909] (-) TimerEvent: {}
+[7.531962] (qrcode_copy) StdoutLine: {'line': b'Installing qrcode_copy_node script to /userdata/lrj_test_mppi/install/qrcode_copy/lib/qrcode_copy\n'}
+[7.534089] (qrcode_copy) StdoutLine: {'line': b"writing list of installed files to '/userdata/lrj_test_mppi/build/qrcode_copy/install.log'\n"}
+[7.567115] (-) TimerEvent: {}
+[7.668122] (-) TimerEvent: {}
+[7.767931] (qrcode_copy) CommandEnded: {'returncode': 0}
+[7.770209] (-) TimerEvent: {}
+[7.847710] (qrcode_copy) JobEnded: {'identifier': 'qrcode_copy', 'rc': 0}
+[7.851768] (-) EventReactorShutdown: {}

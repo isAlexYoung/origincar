@@ -1,0 +1,4 @@
+source;share/NdtLIO/local_setup.bash
+source;share/NdtLIO/local_setup.dsv
+source;share/NdtLIO/local_setup.sh
+source;share/NdtLIO/local_setup.zsh

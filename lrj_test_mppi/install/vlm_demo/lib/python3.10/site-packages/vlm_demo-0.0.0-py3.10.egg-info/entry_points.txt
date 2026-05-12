@@ -1,0 +1,3 @@
+[console_scripts]
+vlm_infer_node = vlm_demo.vlm_infer_node:main
+

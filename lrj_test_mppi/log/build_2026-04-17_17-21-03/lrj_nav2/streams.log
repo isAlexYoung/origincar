@@ -1,0 +1,34 @@
+[0.195s] Invoking command in '/userdata/lrj_test_mppi/build/lrj_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/lrj_nav2 -- -j8 -l8
+[2.675s] Invoked command in '/userdata/lrj_test_mppi/build/lrj_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/lrj_nav2 -- -j8 -l8
+[2.684s] Invoking command in '/userdata/lrj_test_mppi/build/lrj_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/lrj_test_mppi/build/lrj_nav2
+[2.748s] -- Install configuration: ""
+[2.749s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/launch
+[2.751s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/launch/localization_launch.py
+[2.752s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/launch/navigation_launch.py
+[2.753s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/launch/bringup_launch.py
+[2.754s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/rviz
+[2.755s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/rviz/rviz.rviz
+[2.758s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/params
+[2.759s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/params/nav2_params.yaml
+[2.764s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/params/nav2_params_raw.yaml
+[2.766s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/map
+[2.767s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/map/origincar_map.pgm
+[2.768s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/map/s402_map.pgm
+[2.769s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/map/origincar_map.yaml
+[2.773s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/map/s402_map.yaml
+[2.778s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/ament_index/resource_index/package_run_dependencies/lrj_nav2
+[2.787s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/ament_index/resource_index/parent_prefix_path/lrj_nav2
+[2.796s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/environment/ament_prefix_path.sh
+[2.801s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/environment/ament_prefix_path.dsv
+[2.803s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/environment/path.sh
+[2.809s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/environment/path.dsv
+[2.811s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/local_setup.bash
+[2.817s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/local_setup.sh
+[2.823s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/local_setup.zsh
+[2.827s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/local_setup.dsv
+[2.833s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/package.dsv
+[2.837s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/ament_index/resource_index/packages/lrj_nav2
+[2.839s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/cmake/lrj_nav2Config.cmake
+[2.844s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/cmake/lrj_nav2Config-version.cmake
+[2.847s] -- Up-to-date: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/package.xml
+[3.036s] Invoked command in '/userdata/lrj_test_mppi/build/lrj_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/lrj_test_mppi/build/lrj_nav2

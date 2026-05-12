@@ -1,0 +1,28 @@
+[2.458s] Invoking command in '/userdata/lrj_test_mppi/build/rm_mppi_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/rm_mppi_controller -- -j8 -l8
+[2.831s] [100%] Built target rm_mppi_controller_plugin
+[3.038s] Invoked command in '/userdata/lrj_test_mppi/build/rm_mppi_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/rm_mppi_controller -- -j8 -l8
+[3.047s] Invoking command in '/userdata/lrj_test_mppi/build/rm_mppi_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/lrj_test_mppi/build/rm_mppi_controller
+[3.081s] -- Install configuration: ""
+[3.084s] -- Up-to-date: /userdata/lrj_test_mppi/install/rm_mppi_controller/lib/librm_mppi_controller_plugin.so
+[3.086s] -- Up-to-date: /userdata/lrj_test_mppi/install/rm_mppi_controller/include/
+[3.087s] -- Up-to-date: /userdata/lrj_test_mppi/install/rm_mppi_controller/include//rm_mppi_controller
+[3.088s] -- Up-to-date: /userdata/lrj_test_mppi/install/rm_mppi_controller/include//rm_mppi_controller/eigen_types.h
+[3.089s] -- Up-to-date: /userdata/lrj_test_mppi/install/rm_mppi_controller/include//rm_mppi_controller/mppi_controller.hpp
+[3.090s] -- Up-to-date: /userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/plugin.xml
+[3.090s] -- Up-to-date: /userdata/lrj_test_mppi/install/rm_mppi_controller/share/ament_index/resource_index/package_run_dependencies/rm_mppi_controller
+[3.092s] -- Up-to-date: /userdata/lrj_test_mppi/install/rm_mppi_controller/share/ament_index/resource_index/parent_prefix_path/rm_mppi_controller
+[3.092s] -- Up-to-date: /userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/environment/ament_prefix_path.sh
+[3.093s] -- Installing: /userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/environment/ament_prefix_path.dsv
+[3.094s] -- Up-to-date: /userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/environment/path.sh
+[3.095s] -- Installing: /userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/environment/path.dsv
+[3.095s] -- Up-to-date: /userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/local_setup.bash
+[3.096s] -- Up-to-date: /userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/local_setup.sh
+[3.097s] -- Up-to-date: /userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/local_setup.zsh
+[3.099s] -- Installing: /userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/local_setup.dsv
+[3.103s] -- Installing: /userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/package.dsv
+[3.107s] -- Up-to-date: /userdata/lrj_test_mppi/install/rm_mppi_controller/share/ament_index/resource_index/packages/rm_mppi_controller
+[3.108s] -- Up-to-date: /userdata/lrj_test_mppi/install/rm_mppi_controller/share/ament_index/resource_index/nav2_core__pluginlib__plugin/rm_mppi_controller
+[3.108s] -- Up-to-date: /userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/cmake/rm_mppi_controllerConfig.cmake
+[3.109s] -- Up-to-date: /userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/cmake/rm_mppi_controllerConfig-version.cmake
+[3.110s] -- Up-to-date: /userdata/lrj_test_mppi/install/rm_mppi_controller/share/rm_mppi_controller/package.xml
+[3.157s] Invoked command in '/userdata/lrj_test_mppi/build/rm_mppi_controller' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/lrj_test_mppi/build/rm_mppi_controller

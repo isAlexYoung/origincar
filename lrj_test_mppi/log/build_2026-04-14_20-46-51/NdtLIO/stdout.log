@@ -1,0 +1,43 @@
+[ 16%] [32mBuilding CXX object src/CMakeFiles/NDT_LIO.dir/ndt_inc.cpp.o[0m
+[ 16%] [32mBuilding CXX object src/CMakeFiles/NDT_LIO.dir/occupancy_map.cpp.o[0m
+[ 33%] [32mBuilding CXX object src/CMakeFiles/NDT_LIO.dir/incrementalNDTLO.cpp.o[0m
+[ 33%] [32mBuilding CXX object src/CMakeFiles/NDT_LIO.dir/eskf.cpp.o[0m
+[ 41%] [32mBuilding CXX object src/CMakeFiles/NDT_LIO.dir/ieskf.cpp.o[0m
+[ 50%] [32m[1mLinking CXX static library libNDT_LIO.a[0m
+[ 66%] Built target NDT_LIO
+[ 75%] [32mBuilding CXX object CMakeFiles/ndt_lio_node.dir/ros2node/ndt_lio_node.cpp.o[0m
+[ 83%] [32m[1mLinking CXX static library libndt_lio_node.a[0m
+[ 83%] Built target ndt_lio_node
+[ 91%] [32mBuilding CXX object CMakeFiles/test_ros2_lio.dir/test_ros2_lio.cpp.o[0m
+[100%] [32m[1mLinking CXX executable test_ros2_lio[0m
+[100%] Built target test_ros2_lio
+-- Install configuration: "Release"
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/lib/libndt_lio_node.a
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/lib/NdtLIO/test_ros2_lio
+-- Set runtime path of "/userdata/lrj_test_mppi/install/NdtLIO/lib/NdtLIO/test_ros2_lio" to ""
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/include/
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/include//eskf.h
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/include//incrementalNDTLO.h
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/include//occupancy_map.h
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/include//ndt_inc.h
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/include//ieskf.h
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/include//map.h
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/include//frontend.h
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/include//frame.h
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/ndt_params_origincar.yaml
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/share/ament_index/resource_index/package_run_dependencies/NdtLIO
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/share/ament_index/resource_index/parent_prefix_path/NdtLIO
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/environment/ament_prefix_path.sh
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/environment/ament_prefix_path.dsv
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/environment/path.sh
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/environment/path.dsv
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/local_setup.bash
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/local_setup.sh
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/local_setup.zsh
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/local_setup.dsv
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/package.dsv
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/share/ament_index/resource_index/packages/NdtLIO
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/cmake/NdtLIOConfig.cmake
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/cmake/NdtLIOConfig-version.cmake
+-- Installing: /userdata/lrj_test_mppi/install/NdtLIO/share/NdtLIO/package.xml

@@ -1,0 +1,10 @@
+/userdata/lrj_test_mppi/build/car_base/CMakeFiles/uninstall.dir
+/userdata/lrj_test_mppi/build/car_base/CMakeFiles/car_base_uninstall.dir
+/userdata/lrj_test_mppi/build/car_base/CMakeFiles/car_base_node.dir
+/userdata/lrj_test_mppi/build/car_base/CMakeFiles/test.dir
+/userdata/lrj_test_mppi/build/car_base/CMakeFiles/edit_cache.dir
+/userdata/lrj_test_mppi/build/car_base/CMakeFiles/rebuild_cache.dir
+/userdata/lrj_test_mppi/build/car_base/CMakeFiles/list_install_components.dir
+/userdata/lrj_test_mppi/build/car_base/CMakeFiles/install.dir
+/userdata/lrj_test_mppi/build/car_base/CMakeFiles/install/local.dir
+/userdata/lrj_test_mppi/build/car_base/CMakeFiles/install/strip.dir

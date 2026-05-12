@@ -1,0 +1,1 @@
+Invoking command in '/userdata/lrj_test_mppi/build/rm_mppi_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/rm_mppi_controller -- -j8 -l8

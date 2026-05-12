@@ -1,0 +1,245 @@
+[0.154s] Invoking command in '/userdata/lrj_test_mppi/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/lslidar_msgs -- -j8 -l8
+[0.353s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_generator_c[0m
+[0.451s] [  1%] Built target lslidar_msgs__cpp
+[0.457s] [  3%] Built target lslidar_msgs__rs
+[0.499s] [  3%] Built target ament_cmake_python_copy_lslidar_msgs
+[0.516s] [ 14%] Built target lslidar_msgs__rosidl_generator_c
+[0.530s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_fastrtps_cpp[0m
+[0.532s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_introspection_cpp[0m
+[0.551s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_cpp[0m
+[0.587s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_fastrtps_c[0m
+[0.611s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_introspection_c[0m
+[0.641s] [ 25%] Built target lslidar_msgs__rosidl_typesupport_introspection_cpp
+[0.664s] [ 35%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_cpp
+[0.676s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_c[0m
+[0.695s] [ 46%] Built target lslidar_msgs__rosidl_typesupport_cpp
+[0.728s] [ 57%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c
+[0.737s] [ 68%] Built target lslidar_msgs__rosidl_typesupport_introspection_c
+[0.752s] [ 79%] Built target lslidar_msgs__rosidl_typesupport_c
+[0.855s] [ 79%] Built target lslidar_msgs
+[1.005s] [ 81%] Built target lslidar_msgs__py
+[1.067s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_generator_py[0m
+[1.157s] [ 90%] Built target lslidar_msgs__rosidl_generator_py
+[1.212s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext[0m
+[1.245s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_c__pyext[0m
+[1.251s] [35m[1mConsolidate compiler generated dependencies of target lslidar_msgs__rosidl_typesupport_introspection_c__pyext[0m
+[1.286s] [ 93%] Built target lslidar_msgs__rosidl_typesupport_fastrtps_c__pyext
+[1.332s] [ 98%] Built target lslidar_msgs__rosidl_typesupport_introspection_c__pyext
+[1.334s] [100%] Built target lslidar_msgs__rosidl_typesupport_c__pyext
+[2.662s] running egg_info
+[2.667s] writing lslidar_msgs.egg-info/PKG-INFO
+[2.669s] writing dependency_links to lslidar_msgs.egg-info/dependency_links.txt
+[2.670s] writing top-level names to lslidar_msgs.egg-info/top_level.txt
+[2.688s] reading manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[2.692s] writing manifest file 'lslidar_msgs.egg-info/SOURCES.txt'
+[2.940s] [100%] Built target ament_cmake_python_build_lslidar_msgs_egg
+[3.001s] Invoked command in '/userdata/lrj_test_mppi/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/lslidar_msgs -- -j8 -l8
+[3.052s] Invoking command in '/userdata/lrj_test_mppi/build/lslidar_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/lrj_test_mppi/build/lslidar_msgs
+[3.090s] -- Install configuration: ""
+[3.092s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/ament_index/resource_index/rosidl_interfaces/lslidar_msgs
+[3.092s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[3.093s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[3.094s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.h
+[3.095s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.h
+[3.095s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.h
+[3.096s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.h
+[3.097s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_c__visibility_control.h
+[3.098s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.h
+[3.099s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[3.102s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.h
+[3.103s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.h
+[3.104s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.h
+[3.106s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.h
+[3.107s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.h
+[3.111s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.h
+[3.112s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.h
+[3.113s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.h
+[3.114s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.h
+[3.118s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.h
+[3.119s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.h
+[3.121s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.h
+[3.122s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__functions.c
+[3.123s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__functions.c
+[3.124s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.h
+[3.124s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__functions.c
+[3.125s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__functions.c
+[3.126s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__functions.c
+[3.129s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.h
+[3.131s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.h
+[3.132s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.sh
+[3.134s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/environment/library_path.dsv
+[3.136s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_c.so
+[3.138s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[3.139s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[3.141s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[3.143s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[3.144s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_c.h
+[3.146s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_c.h
+[3.148s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_c.h
+[3.149s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_c.h
+[3.151s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_c.h
+[3.153s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_c.so
+[3.155s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[3.156s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[3.158s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_scan.hpp
+[3.160s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_difop.hpp
+[3.162s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_packet.hpp
+[3.163s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[3.165s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__builder.hpp
+[3.167s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__builder.hpp
+[3.169s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__builder.hpp
+[3.171s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.hpp
+[3.172s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__traits.hpp
+[3.174s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__builder.hpp
+[3.176s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__struct.hpp
+[3.178s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.hpp
+[3.180s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__struct.hpp
+[3.182s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__traits.hpp
+[3.184s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__traits.hpp
+[3.186s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__traits.hpp
+[3.187s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__builder.hpp
+[3.189s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__struct.hpp
+[3.191s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__struct.hpp
+[3.193s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__traits.hpp
+[3.195s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.hpp
+[3.197s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__struct.hpp
+[3.199s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.hpp
+[3.200s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.hpp
+[3.202s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_sweep.hpp
+[3.204s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[3.205s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/lslidar_point.hpp
+[3.207s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[3.209s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[3.212s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[3.214s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_fastrtps_cpp.hpp
+[3.215s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/dds_fastrtps
+[3.217s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_fastrtps_cpp.hpp
+[3.219s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_fastrtps_cpp.hpp
+[3.220s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_fastrtps_cpp.hpp
+[3.222s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_fastrtps_cpp.hpp
+[3.223s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[3.224s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_fastrtps_cpp.so
+[3.226s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[3.227s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[3.228s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[3.229s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[3.229s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_c.h
+[3.230s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.c
+[3.231s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.c
+[3.231s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.c
+[3.232s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_c.h
+[3.233s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_c.h
+[3.233s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_c.h
+[3.234s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.c
+[3.235s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_c.h
+[3.235s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.c
+[3.236s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_c.so
+[3.237s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_c.so
+[3.237s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs
+[3.238s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg
+[3.239s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail
+[3.239s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__rosidl_typesupport_introspection_cpp.hpp
+[3.240s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_point__type_support.cpp
+[3.241s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__rosidl_typesupport_introspection_cpp.hpp
+[3.241s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__rosidl_typesupport_introspection_cpp.hpp
+[3.242s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__type_support.cpp
+[3.243s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_packet__type_support.cpp
+[3.244s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__rosidl_typesupport_introspection_cpp.hpp
+[3.244s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_scan__type_support.cpp
+[3.245s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_sweep__rosidl_typesupport_introspection_cpp.hpp
+[3.246s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/include/lslidar_msgs/lslidar_msgs/msg/detail/lslidar_difop__type_support.cpp
+[3.247s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_introspection_cpp.so
+[3.247s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_typesupport_cpp.so
+[3.248s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.sh
+[3.249s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/environment/pythonpath.dsv
+[3.250s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info
+[3.250s] -- Installing: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/SOURCES.txt
+[3.251s] -- Installing: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/PKG-INFO
+[3.252s] -- Installing: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/dependency_links.txt
+[3.253s] -- Installing: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs-1.2.0-py3.10.egg-info/top_level.txt
+[3.253s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs
+[3.254s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[3.255s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg
+[3.256s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan.py
+[3.256s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop_s.c
+[3.257s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point_s.c
+[3.258s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet_s.c
+[3.259s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_scan_s.c
+[3.260s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep_s.c
+[3.260s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_difop.py
+[3.261s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/__init__.py
+[3.262s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_point.py
+[3.262s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_packet.py
+[3.263s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg/_lslidar_sweep.py
+[3.264s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/liblslidar_msgs__rosidl_generator_py.so
+[3.264s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_c.c
+[3.265s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.266s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.267s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.268s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/__init__.py
+[3.268s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/_lslidar_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[3.381s] Listing '/userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs'...
+[3.383s] Listing '/userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/msg'...
+[3.434s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[3.435s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[3.437s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages/lslidar_msgs/lslidar_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[3.438s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/lib/liblslidar_msgs__rosidl_generator_py.so
+[3.440s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/ament_index/resource_index/rust_packages/lslidar_msgs
+[3.441s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/rust
+[3.442s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/rust/src
+[3.443s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/rust/src/msg.rs
+[3.444s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/rust/src/msg
+[3.445s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/rust/src/msg/rmw.rs
+[3.458s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/rust/src/lib.rs
+[3.461s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/rust/build.rs
+[3.462s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/rust/Cargo.toml
+[3.462s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.idl
+[3.463s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.idl
+[3.464s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.idl
+[3.465s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.idl
+[3.466s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.idl
+[3.466s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarDifop.msg
+[3.467s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPacket.msg
+[3.468s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarPoint.msg
+[3.469s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarScan.msg
+[3.490s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/msg/LslidarSweep.msg
+[3.493s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/ament_index/resource_index/package_run_dependencies/lslidar_msgs
+[3.494s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/ament_index/resource_index/parent_prefix_path/lslidar_msgs
+[3.495s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.sh
+[3.496s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/environment/ament_prefix_path.dsv
+[3.497s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/environment/path.sh
+[3.498s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/environment/path.dsv
+[3.499s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/local_setup.bash
+[3.501s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/local_setup.sh
+[3.501s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/local_setup.zsh
+[3.503s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/local_setup.dsv
+[3.505s] -- Installing: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/package.dsv
+[3.506s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/ament_index/resource_index/packages/lslidar_msgs
+[3.508s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport.cmake
+[3.509s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cExport-noconfig.cmake
+[3.511s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[3.515s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[3.516s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_cppExport.cmake
+[3.517s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[3.520s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[3.523s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport.cmake
+[3.525s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[3.529s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport.cmake
+[3.530s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[3.532s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[3.536s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[3.540s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport.cmake
+[3.545s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[3.550s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport.cmake
+[3.553s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake/export_lslidar_msgs__rosidl_generator_pyExport-noconfig.cmake
+[3.554s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake-extras.cmake
+[3.555s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[3.559s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[3.560s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[3.561s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[3.563s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[3.566s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[3.568s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig.cmake
+[3.569s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake/lslidar_msgsConfig-version.cmake
+[3.573s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/package.xml
+[3.577s] Invoked command in '/userdata/lrj_test_mppi/build/lslidar_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/lrj_test_mppi/build/lslidar_msgs

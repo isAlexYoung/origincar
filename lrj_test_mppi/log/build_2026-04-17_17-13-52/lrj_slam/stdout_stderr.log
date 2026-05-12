@@ -1,0 +1,35 @@
+-- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /userdata/lrj_test_mppi/build/lrj_slam
+[33mCMake Warning:
+  Manually-specified variables were not used by the project:
+
+    STREAM_SDK_TYPE
+
+[0m
+-- Install configuration: ""
+-- Up-to-date: /userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/launch
+-- Up-to-date: /userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/launch/lrj_slam_launch.py
+-- Up-to-date: /userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/rviz
+-- Up-to-date: /userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/rviz/rviz.rviz
+-- Up-to-date: /userdata/lrj_test_mppi/install/lrj_slam/share/ament_index/resource_index/package_run_dependencies/lrj_slam
+-- Up-to-date: /userdata/lrj_test_mppi/install/lrj_slam/share/ament_index/resource_index/parent_prefix_path/lrj_slam
+-- Up-to-date: /userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/environment/ament_prefix_path.sh
+-- Installing: /userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/environment/ament_prefix_path.dsv
+-- Up-to-date: /userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/environment/path.sh
+-- Installing: /userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/environment/path.dsv
+-- Up-to-date: /userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/local_setup.bash
+-- Up-to-date: /userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/local_setup.sh
+-- Up-to-date: /userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/local_setup.zsh
+-- Installing: /userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/local_setup.dsv
+-- Installing: /userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/package.dsv
+-- Up-to-date: /userdata/lrj_test_mppi/install/lrj_slam/share/ament_index/resource_index/packages/lrj_slam
+-- Up-to-date: /userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/cmake/lrj_slamConfig.cmake
+-- Up-to-date: /userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/cmake/lrj_slamConfig-version.cmake
+-- Up-to-date: /userdata/lrj_test_mppi/install/lrj_slam/share/lrj_slam/package.xml

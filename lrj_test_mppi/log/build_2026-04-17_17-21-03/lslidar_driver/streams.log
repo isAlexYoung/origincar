@@ -1,0 +1,110 @@
+[2.298s] Invoking command in '/userdata/lrj_test_mppi/build/lslidar_driver': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /userdata/lrj_test_mppi/src/lidar/lslidar_driver -DSTREAM_SDK_TYPE=AURORA930 -DCMAKE_INSTALL_PREFIX=/userdata/lrj_test_mppi/install/lslidar_driver
+[2.378s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0") found components: thread 
+[2.389s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[3.735s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[3.752s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[3.793s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[3.858s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.956s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.234s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.245s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.734s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[5.108s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.163s] -- Found Boost: /usr/lib/aarch64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[5.282s] -- FLANN found (include: /usr/include, lib: /usr/lib/aarch64-linux-gnu/libflann_cpp.so)
+[7.476s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[7.516s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[7.517s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[8.642s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[8.674s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.711s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/aarch64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.762s] -- Found Qhull version 8.0.2
+[10.833s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[11.877s] -- looking for PCL_COMMON
+[11.880s] -- looking for PCL_KDTREE
+[11.883s] -- looking for PCL_OCTREE
+[11.885s] -- looking for PCL_SEARCH
+[11.888s] -- looking for PCL_SAMPLE_CONSENSUS
+[11.892s] -- looking for PCL_FILTERS
+[11.896s] -- looking for PCL_2D
+[11.899s] -- looking for PCL_GEOMETRY
+[11.901s] -- looking for PCL_IO
+[11.905s] -- looking for PCL_FEATURES
+[11.909s] -- looking for PCL_ML
+[11.917s] -- looking for PCL_SEGMENTATION
+[11.920s] -- looking for PCL_VISUALIZATION
+[11.922s] -- looking for PCL_SURFACE
+[11.924s] -- looking for PCL_REGISTRATION
+[11.928s] -- looking for PCL_KEYPOINTS
+[11.932s] -- looking for PCL_TRACKING
+[11.936s] -- looking for PCL_RECOGNITION
+[11.941s] -- looking for PCL_STEREO
+[11.944s] -- looking for PCL_APPS
+[11.952s] -- looking for PCL_IN_HAND_SCANNER
+[11.955s] -- looking for PCL_MODELER
+[11.958s] -- looking for PCL_POINT_CLOUD_EDITOR
+[11.961s] -- looking for PCL_OUTOFCORE
+[11.964s] -- looking for PCL_PEOPLE
+[11.976s] -- Found diagnostic_updater: 4.0.6 (/opt/ros/humble/share/diagnostic_updater/cmake)
+[12.122s] -- Found lslidar_msgs: 1.2.0 (/userdata/lrj_test_mppi/install/lslidar_msgs/share/lslidar_msgs/cmake)
+[12.226s] -- Found pluginlib: 5.1.3 (/opt/ros/humble/share/pluginlib/cmake)
+[12.311s] -- Found pcl_conversions: 2.4.5 (/opt/ros/humble/share/pcl_conversions/cmake)
+[13.374s] -- Configuring done
+[13.820s] -- Generating done
+[13.834s] [33mCMake Warning:
+[13.836s]   Manually-specified variables were not used by the project:
+[13.839s] 
+[13.841s]     STREAM_SDK_TYPE
+[13.843s] 
+[13.845s] [0m
+[13.906s] -- Build files have been written to: /userdata/lrj_test_mppi/build/lslidar_driver
+[14.053s] Invoked command in '/userdata/lrj_test_mppi/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /userdata/lrj_test_mppi/src/lidar/lslidar_driver -DSTREAM_SDK_TYPE=AURORA930 -DCMAKE_INSTALL_PREFIX=/userdata/lrj_test_mppi/install/lslidar_driver
+[14.056s] Invoking command in '/userdata/lrj_test_mppi/build/lslidar_driver': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /userdata/lrj_test_mppi/build/lslidar_driver -- -j8 -l8
+[14.319s] [35m[1mConsolidate compiler generated dependencies of target lslidar_driver_node[0m
+[14.693s] [100%] Built target lslidar_driver_node
+[14.758s] Invoked command in '/userdata/lrj_test_mppi/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /userdata/lrj_test_mppi/build/lslidar_driver -- -j8 -l8
+[14.763s] Invoking command in '/userdata/lrj_test_mppi/build/lslidar_driver': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /userdata/lrj_test_mppi/build/lslidar_driver
+[14.798s] -- Install configuration: ""
+[14.800s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/launch
+[14.801s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/launch/lslidar_double_launch.py
+[14.802s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_uart_launch.py
+[14.803s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_launch.py
+[14.804s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/launch/viewer_scan_launch.py
+[14.805s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/launch/lsm10p_net_launch.py
+[14.807s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/launch/lsn10p_net_launch.py
+[14.811s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/launch/lsm10_uart_launch.py
+[14.812s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/launch/lsm10_net_launch.py
+[14.823s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/launch/lsn10_net_launch.py
+[14.825s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/launch/lsn10_launch.py
+[14.827s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/params
+[14.829s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2
+[14.834s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10.yaml
+[14.839s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10.yaml
+[14.841s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsn10p.yaml
+[14.843s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/params/lidar_uart_ros2/lsm10_p.yaml
+[14.845s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2
+[14.848s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10_net.yaml
+[14.853s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10_net.yaml
+[14.855s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsn10p_net.yaml
+[14.857s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/params/lidar_net_ros2/lsm10p_net.yaml
+[14.859s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/rviz
+[14.862s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/rviz/lslidar.rviz
+[14.866s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/lib/lslidar_driver/lslidar_driver_node
+[14.869s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/ament_index/resource_index/package_run_dependencies/lslidar_driver
+[14.873s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/ament_index/resource_index/parent_prefix_path/lslidar_driver
+[14.877s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.sh
+[14.888s] -- Installing: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/environment/ament_prefix_path.dsv
+[14.893s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/environment/path.sh
+[14.898s] -- Installing: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/environment/path.dsv
+[14.901s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/local_setup.bash
+[14.904s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/local_setup.sh
+[14.908s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/local_setup.zsh
+[14.914s] -- Installing: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/local_setup.dsv
+[14.919s] -- Installing: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/package.dsv
+[14.925s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/ament_index/resource_index/packages/lslidar_driver
+[14.931s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.933s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.936s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig.cmake
+[14.938s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/cmake/lslidar_driverConfig-version.cmake
+[14.943s] -- Up-to-date: /userdata/lrj_test_mppi/install/lslidar_driver/share/lslidar_driver/package.xml
+[14.947s] Invoked command in '/userdata/lrj_test_mppi/build/lslidar_driver' returned '0': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/lslidar_msgs/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /userdata/lrj_test_mppi/build/lslidar_driver

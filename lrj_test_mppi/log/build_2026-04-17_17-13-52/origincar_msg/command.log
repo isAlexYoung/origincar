@@ -1,0 +1,1 @@
+Invoking command in '/userdata/lrj_test_mppi/build/origincar_msg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/lrj_test_mppi/src/origincar_msg -DSTREAM_SDK_TYPE=AURORA930 -DCMAKE_INSTALL_PREFIX=/userdata/lrj_test_mppi/install/origincar_msg

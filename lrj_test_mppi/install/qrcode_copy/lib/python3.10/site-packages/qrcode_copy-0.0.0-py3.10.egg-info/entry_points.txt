@@ -1,0 +1,3 @@
+[console_scripts]
+qrcode_copy_node = qrcode_copy.qrcode_copy:main
+

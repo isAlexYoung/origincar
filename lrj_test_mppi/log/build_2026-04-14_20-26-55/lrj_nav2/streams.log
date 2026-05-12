@@ -1,0 +1,58 @@
+[0.129s] Invoking command in '/userdata/lrj_test_mppi/build/lrj_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/lrj_test_mppi/src/lrj_nav2 -DCMAKE_INSTALL_PREFIX=/userdata/lrj_test_mppi/install/lrj_nav2
+[0.475s] -- The C compiler identification is GNU 11.2.0
+[0.950s] -- The CXX compiler identification is GNU 11.2.0
+[0.995s] -- Detecting C compiler ABI info
+[1.457s] -- Detecting C compiler ABI info - done
+[1.510s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.512s] -- Detecting C compile features
+[1.514s] -- Detecting C compile features - done
+[1.529s] -- Detecting CXX compiler ABI info
+[1.990s] -- Detecting CXX compiler ABI info - done
+[2.040s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.042s] -- Detecting CXX compile features
+[2.045s] -- Detecting CXX compile features - done
+[2.058s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.239s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.922s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.487s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.491s] -- Added test 'lint_cmake' to check CMake code style
+[4.494s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.507s] -- Added test 'xmllint' to check XML markup files
+[4.508s] -- Configuring done
+[4.523s] -- Generating done
+[4.532s] -- Build files have been written to: /userdata/lrj_test_mppi/build/lrj_nav2
+[4.559s] Invoked command in '/userdata/lrj_test_mppi/build/lrj_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake /userdata/lrj_test_mppi/src/lrj_nav2 -DCMAKE_INSTALL_PREFIX=/userdata/lrj_test_mppi/install/lrj_nav2
+[4.567s] Invoking command in '/userdata/lrj_test_mppi/build/lrj_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/lrj_nav2 -- -j8 -l8
+[4.751s] Invoked command in '/userdata/lrj_test_mppi/build/lrj_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/lrj_nav2 -- -j8 -l8
+[4.770s] Invoking command in '/userdata/lrj_test_mppi/build/lrj_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/lrj_test_mppi/build/lrj_nav2
+[4.805s] -- Install configuration: ""
+[4.807s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/launch
+[4.807s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/launch/localization_launch.py
+[4.809s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/launch/navigation_launch.py
+[4.810s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/launch/bringup_launch.py
+[4.811s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/rviz
+[4.812s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/rviz/rviz.rviz
+[4.813s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/params
+[4.814s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/params/nav2_params.yaml
+[4.814s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/params/nav2_params_raw.yaml
+[4.815s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/map
+[4.816s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/map/origincar_map.pgm
+[4.817s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/map/s402_map.pgm
+[4.823s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/map/origincar_map.yaml
+[4.825s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/map/s402_map.yaml
+[4.826s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/ament_index/resource_index/package_run_dependencies/lrj_nav2
+[4.831s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/ament_index/resource_index/parent_prefix_path/lrj_nav2
+[4.835s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/environment/ament_prefix_path.sh
+[4.836s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/environment/ament_prefix_path.dsv
+[4.838s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/environment/path.sh
+[4.841s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/environment/path.dsv
+[4.847s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/local_setup.bash
+[4.848s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/local_setup.sh
+[4.853s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/local_setup.zsh
+[4.854s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/local_setup.dsv
+[4.855s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/package.dsv
+[4.857s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/ament_index/resource_index/packages/lrj_nav2
+[4.858s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/cmake/lrj_nav2Config.cmake
+[4.859s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/cmake/lrj_nav2Config-version.cmake
+[4.860s] -- Installing: /userdata/lrj_test_mppi/install/lrj_nav2/share/lrj_nav2/package.xml
+[4.861s] Invoked command in '/userdata/lrj_test_mppi/build/lrj_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --install /userdata/lrj_test_mppi/build/lrj_nav2

@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.001122] (-) JobUnselected: {'identifier': 'NdtLIO'}
+[0.002113] (-) JobUnselected: {'identifier': 'car_base'}
+[0.002812] (-) JobUnselected: {'identifier': 'deptrum-ros-driver-aurora930'}
+[0.003564] (-) JobUnselected: {'identifier': 'lrj_nav2'}
+[0.003790] (-) JobUnselected: {'identifier': 'lrj_slam'}
+[0.004014] (-) JobUnselected: {'identifier': 'lslidar_driver'}
+[0.004206] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.004399] (-) JobUnselected: {'identifier': 'origincar_msg'}
+[0.004594] (-) JobUnselected: {'identifier': 'qrcode'}
+[0.004786] (-) JobUnselected: {'identifier': 'qrcode_copy'}
+[0.004977] (-) JobUnselected: {'identifier': 'rm_mppi_controller'}
+[0.005168] (-) JobUnselected: {'identifier': 'serial'}
+[0.005358] (-) JobUnselected: {'identifier': 'vlm_demo'}
+[0.005561] (run_car_pkg) JobQueued: {'identifier': 'run_car_pkg', 'dependencies': OrderedDict([('origincar_msg', '/userdata/lrj_test_mppi/install/origincar_msg')])}
+[0.005775] (run_car_pkg) JobStarted: {'identifier': 'run_car_pkg'}
+[0.098826] (-) TimerEvent: {}
+[0.199636] (-) TimerEvent: {}
+[0.300415] (-) TimerEvent: {}
+[0.401237] (-) TimerEvent: {}
+[0.502017] (-) TimerEvent: {}
+[0.602797] (-) TimerEvent: {}
+[0.703585] (-) TimerEvent: {}
+[0.804376] (-) TimerEvent: {}
+[0.905161] (-) TimerEvent: {}
+[1.005949] (-) TimerEvent: {}
+[1.106740] (-) TimerEvent: {}
+[1.207520] (-) TimerEvent: {}
+[1.308310] (-) TimerEvent: {}
+[1.409081] (-) TimerEvent: {}
+[1.509863] (-) TimerEvent: {}
+[1.610685] (-) TimerEvent: {}
+[1.711457] (-) TimerEvent: {}
+[1.812263] (-) TimerEvent: {}
+[1.913132] (-) TimerEvent: {}
+[2.013949] (-) TimerEvent: {}
+[2.115869] (-) TimerEvent: {}
+[2.216669] (-) TimerEvent: {}
+[2.317433] (-) TimerEvent: {}
+[2.418230] (-) TimerEvent: {}
+[2.518947] (-) TimerEvent: {}
+[2.619710] (-) TimerEvent: {}
+[2.720567] (-) TimerEvent: {}
+[2.821375] (-) TimerEvent: {}
+[2.922167] (-) TimerEvent: {}
+[3.022959] (-) TimerEvent: {}
+[3.123722] (-) TimerEvent: {}
+[3.224485] (-) TimerEvent: {}
+[3.325237] (-) TimerEvent: {}
+[3.425997] (-) TimerEvent: {}
+[3.526816] (-) TimerEvent: {}
+[3.627655] (-) TimerEvent: {}
+[3.728457] (-) TimerEvent: {}
+[3.829242] (-) TimerEvent: {}
+[3.930121] (-) TimerEvent: {}
+[4.031044] (-) TimerEvent: {}
+[4.131852] (-) TimerEvent: {}
+[4.232662] (-) TimerEvent: {}
+[4.333489] (-) TimerEvent: {}
+[4.434359] (-) TimerEvent: {}
+[4.535306] (-) TimerEvent: {}
+[4.636207] (-) TimerEvent: {}
+[4.666756] (run_car_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/run_car_pkg', 'build', '--build-base', '/userdata/lrj_test_mppi/build/run_car_pkg/build', 'install', '--record', '/userdata/lrj_test_mppi/build/run_car_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/userdata/lrj_test_mppi/src/run_car_pkg', 'env': {'PYTHON_BASIC_REPL': '1', 'LANGUAGE': 'en_US.UTF-8', 'USER': 'root', 'SSH_CLIENT': '192.168.144.30 2256 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/root/.vscode-server/cli/servers/Stable-034f571df509819cc10b0c8129f66ef77a542f0e/server/extensions/git/dist/askpass.sh', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/userdata/lrj_test_mppi/install/origincar_msg/lib:/userdata/lrj_test_mppi/install/serial/lib:/userdata/lrj_test_mppi/install/rm_mppi_controller/lib:/userdata/lrj_test_mppi/install/lslidar_msgs/lib:/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib', 'BROWSER': '/root/.vscode-server/cli/servers/Stable-034f571df509819cc10b0c8129f66ef77a542f0e/server/bin/helpers/browser.sh', 'MOTD_SHOWN': 'pam', 'HOME': '/root', 'OLDPWD': '/userdata', 'TERM_PROGRAM_VERSION': '1.118.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/0/vscode-ipc-49ef3965-b279-43a8-ab81-95469910a608.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/root/.vscode-server/cli/servers/Stable-034f571df509819cc10b0c8129f66ef77a542f0e/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/root/.vscode-server/cli/servers/Stable-034f571df509819cc10b0c8129f66ef77a542f0e/server/node', 'PYDEVD_DISABLE_FILE_VALIDATION': '1', 'BUNDLED_DEBUGPY_PATH': '/root/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/libs/debugpy', 'VSCODE_PYTHON_AUTOACTIVATE_GUARD': '1', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/0/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': '', 'TROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/userdata/lrj_test_mppi/install:/userdata/dev_ws/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'root', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '2', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/root/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand:/root/.vscode-server/data/User/globalStorage/github.copilot-chat/copilotCli:/root/.vscode-server/cli/servers/Stable-034f571df509819cc10b0c8129f66ef77a542f0e/server/bin/remote-cli:/opt/tros/humble/bin:/opt/ros/humble/bin:/usr/hobot/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/root/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/bundled/scripts/noConfigScripts', 'XDG_RUNTIME_DIR': '/run/user/0', 'VSCODE_DEBUGPY_ADAPTER_ENDPOINTS': '/root/.vscode-server/extensions/ms-python.debugpy-2026.6.0-linux-arm64/.noConfigDebugAdapterEndpoints/endpoint-68d6a36c58342f15.txt', 'LANG': 'en_US.UTF-8', 'PYTHONSTARTUP': '/root/.vscode-server/data/User/workspaceStorage/cb0c63a858b5378708de867dfe76abe5/ms-python.python/pythonrc.py', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/0/vscode-git-c3b7c21f3e.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/userdata/lrj_test_mppi/install/vlm_demo:/userdata/lrj_test_mppi/install/car_base:/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/run_car_pkg:/userdata/lrj_test_mppi/install/rm_mppi_controller:/userdata/lrj_test_mppi/install/qrcode_copy:/userdata/lrj_test_mppi/install/qrcode:/userdata/lrj_test_mppi/install/NdtLIO:/userdata/lrj_test_mppi/install/origincar_msg:/userdata/lrj_test_mppi/install/lslidar_driver:/userdata/lrj_test_mppi/install/lslidar_msgs:/userdata/lrj_test_mppi/install/lrj_slam:/userdata/lrj_test_mppi/install/lrj_nav2:/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble', 'SHELL': '/bin/bash', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/userdata/lrj_test_mppi/build/run_car_pkg', 'SSH_CONNECTION': '192.168.144.30 2256 192.168.144.31 22', 'PYTHONPATH': '/userdata/lrj_test_mppi/build/run_car_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/lrj_test_mppi/install/run_car_pkg/lib/python3.10/site-packages:/userdata/lrj_test_mppi/install/vlm_demo/lib/python3.10/site-packages:/userdata/lrj_test_mppi/install/run_car_pkg/lib/python3.10/site-packages:/userdata/lrj_test_mppi/install/qrcode_copy/lib/python3.10/site-packages:/userdata/lrj_test_mppi/install/qrcode/lib/python3.10/site-packages:/userdata/lrj_test_mppi/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/lrj_test_mppi/install/lslidar_msgs/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_base/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/origincar_msg/local/lib/python3.10/dist-packages:/userdata/dev_ws/install/ackermann_msgs/local/lib/python3.10/dist-packages:/opt/tros/humble/lib/python3.10/site-packages:/opt/tros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/userdata/lrj_test_mppi/install/origincar_msg:/userdata/lrj_test_mppi/install/car_base:/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/rm_mppi_controller:/userdata/lrj_test_mppi/install/NdtLIO:/userdata/lrj_test_mppi/install/lslidar_driver:/userdata/lrj_test_mppi/install/lslidar_msgs:/userdata/lrj_test_mppi/install/lrj_slam:/userdata/lrj_test_mppi/install/lrj_nav2:/userdata/lrj_test_mppi/install/deptrum-ros-driver-aurora930:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs'}, 'shell': False}
+[4.736373] (-) TimerEvent: {}
+[4.837177] (-) TimerEvent: {}
+[4.938026] (-) TimerEvent: {}
+[5.038823] (-) TimerEvent: {}
+[5.139604] (-) TimerEvent: {}
+[5.240400] (-) TimerEvent: {}
+[5.341224] (-) TimerEvent: {}
+[5.442005] (-) TimerEvent: {}
+[5.542804] (-) TimerEvent: {}
+[5.643618] (-) TimerEvent: {}
+[5.744409] (-) TimerEvent: {}
+[5.845219] (-) TimerEvent: {}
+[5.946048] (-) TimerEvent: {}
+[6.046846] (-) TimerEvent: {}
+[6.147665] (-) TimerEvent: {}
+[6.248455] (-) TimerEvent: {}
+[6.349230] (-) TimerEvent: {}
+[6.406687] (run_car_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[6.412172] (run_car_pkg) StdoutLine: {'line': b'writing ../../build/run_car_pkg/run_car_pkg.egg-info/PKG-INFO\n'}
+[6.413260] (run_car_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/run_car_pkg/run_car_pkg.egg-info/dependency_links.txt\n'}
+[6.414030] (run_car_pkg) StdoutLine: {'line': b'writing entry points to ../../build/run_car_pkg/run_car_pkg.egg-info/entry_points.txt\n'}
+[6.414687] (run_car_pkg) StdoutLine: {'line': b'writing requirements to ../../build/run_car_pkg/run_car_pkg.egg-info/requires.txt\n'}
+[6.415256] (run_car_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/run_car_pkg/run_car_pkg.egg-info/top_level.txt\n'}
+[6.426044] (run_car_pkg) StdoutLine: {'line': b"reading manifest file '../../build/run_car_pkg/run_car_pkg.egg-info/SOURCES.txt'\n"}
+[6.431097] (run_car_pkg) StdoutLine: {'line': b"writing manifest file '../../build/run_car_pkg/run_car_pkg.egg-info/SOURCES.txt'\n"}
+[6.431898] (run_car_pkg) StdoutLine: {'line': b'running build\n'}
+[6.432408] (run_car_pkg) StdoutLine: {'line': b'running build_py\n'}
+[6.432929] (run_car_pkg) StdoutLine: {'line': b'copying run_car_pkg/run_car_node.py -> /userdata/lrj_test_mppi/build/run_car_pkg/build/lib/run_car_pkg\n'}
+[6.435390] (run_car_pkg) StdoutLine: {'line': b'running install\n'}
+[6.437107] (run_car_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[6.441504] (run_car_pkg) StdoutLine: {'line': b'copying /userdata/lrj_test_mppi/build/run_car_pkg/build/lib/run_car_pkg/run_car_node.py -> /userdata/lrj_test_mppi/install/run_car_pkg/lib/python3.10/site-packages/run_car_pkg\n'}
+[6.445377] (run_car_pkg) StdoutLine: {'line': b'byte-compiling /userdata/lrj_test_mppi/install/run_car_pkg/lib/python3.10/site-packages/run_car_pkg/run_car_node.py to run_car_node.cpython-310.pyc\n'}
+[6.449347] (-) TimerEvent: {}
+[6.469475] (run_car_pkg) StdoutLine: {'line': b'running install_data\n'}
+[6.470567] (run_car_pkg) StdoutLine: {'line': b'copying params/run_car_node.yaml -> /userdata/lrj_test_mppi/install/run_car_pkg/share/run_car_pkg/params\n'}
+[6.471290] (run_car_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[6.480997] (run_car_pkg) StdoutLine: {'line': b"removing '/userdata/lrj_test_mppi/install/run_car_pkg/lib/python3.10/site-packages/run_car_pkg-0.0.1-py3.10.egg-info' (and everything under it)\n"}
+[6.482623] (run_car_pkg) StdoutLine: {'line': b'Copying ../../build/run_car_pkg/run_car_pkg.egg-info to /userdata/lrj_test_mppi/install/run_car_pkg/lib/python3.10/site-packages/run_car_pkg-0.0.1-py3.10.egg-info\n'}
+[6.487597] (run_car_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[6.549525] (-) TimerEvent: {}
+[6.603497] (run_car_pkg) StdoutLine: {'line': b'Installing run_car_node script to /userdata/lrj_test_mppi/install/run_car_pkg/lib/run_car_pkg\n'}
+[6.605700] (run_car_pkg) StdoutLine: {'line': b"writing list of installed files to '/userdata/lrj_test_mppi/build/run_car_pkg/install.log'\n"}
+[6.649762] (-) TimerEvent: {}
+[6.750867] (-) TimerEvent: {}
+[6.803779] (run_car_pkg) CommandEnded: {'returncode': 0}
+[6.851308] (-) TimerEvent: {}
+[6.903228] (run_car_pkg) JobEnded: {'identifier': 'run_car_pkg', 'rc': 0}
+[6.906519] (-) EventReactorShutdown: {}

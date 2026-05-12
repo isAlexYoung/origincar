@@ -1,0 +1,37 @@
+[0.000000] (-) TimerEvent: {}
+[0.001502] (-) JobUnselected: {'identifier': 'NdtLIO'}
+[0.003137] (-) JobUnselected: {'identifier': 'car_base'}
+[0.004213] (-) JobUnselected: {'identifier': 'deptrum-ros-driver-aurora930'}
+[0.005367] (-) JobUnselected: {'identifier': 'lrj_nav2'}
+[0.005905] (-) JobUnselected: {'identifier': 'lrj_slam'}
+[0.006195] (-) JobUnselected: {'identifier': 'lslidar_driver'}
+[0.006412] (-) JobUnselected: {'identifier': 'lslidar_msgs'}
+[0.006613] (-) JobUnselected: {'identifier': 'origincar_msg'}
+[0.006742] (-) JobUnselected: {'identifier': 'qrcode'}
+[0.007049] (-) JobUnselected: {'identifier': 'rm_mppi_controller'}
+[0.007255] (-) JobUnselected: {'identifier': 'run_car_pkg'}
+[0.007452] (-) JobUnselected: {'identifier': 'serial'}
+[0.007772] (-) JobUnselected: {'identifier': 'vlm_demo'}
+[0.007988] (qrcode_copy) JobQueued: {'identifier': 'qrcode_copy', 'dependencies': OrderedDict([('origincar_msg', '/userdata/lrj_test_mppi/install/origincar_msg')])}
+[0.008212] (qrcode_copy) JobStarted: {'identifier': 'qrcode_copy'}
+[0.098866] (-) TimerEvent: {}
+[0.201219] (-) TimerEvent: {}
+[0.302088] (-) TimerEvent: {}
+[0.402981] (-) TimerEvent: {}
+[0.503874] (-) TimerEvent: {}
+[0.604786] (-) TimerEvent: {}
+[0.705680] (-) TimerEvent: {}
+[0.806591] (-) TimerEvent: {}
+[0.907536] (-) TimerEvent: {}
+[1.008464] (-) TimerEvent: {}
+[1.109289] (-) TimerEvent: {}
+[1.210096] (-) TimerEvent: {}
+[1.310911] (-) TimerEvent: {}
+[1.411715] (-) TimerEvent: {}
+[1.512522] (-) TimerEvent: {}
+[1.613349] (-) TimerEvent: {}
+[1.714157] (-) TimerEvent: {}
+[1.814982] (-) TimerEvent: {}
+[1.915842] (-) TimerEvent: {}
+[1.969314] (qrcode_copy) JobEnded: {'identifier': 'qrcode_copy', 'rc': 0}
+[1.973821] (-) EventReactorShutdown: {}

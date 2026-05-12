@@ -1,0 +1,10 @@
+/userdata/lrj_test_mppi/build/serial/CMakeFiles/uninstall.dir
+/userdata/lrj_test_mppi/build/serial/CMakeFiles/serial_uninstall.dir
+/userdata/lrj_test_mppi/build/serial/CMakeFiles/serial.dir
+/userdata/lrj_test_mppi/build/serial/CMakeFiles/test.dir
+/userdata/lrj_test_mppi/build/serial/CMakeFiles/edit_cache.dir
+/userdata/lrj_test_mppi/build/serial/CMakeFiles/rebuild_cache.dir
+/userdata/lrj_test_mppi/build/serial/CMakeFiles/list_install_components.dir
+/userdata/lrj_test_mppi/build/serial/CMakeFiles/install.dir
+/userdata/lrj_test_mppi/build/serial/CMakeFiles/install/local.dir
+/userdata/lrj_test_mppi/build/serial/CMakeFiles/install/strip.dir

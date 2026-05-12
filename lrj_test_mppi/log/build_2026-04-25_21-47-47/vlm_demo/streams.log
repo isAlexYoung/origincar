@@ -1,0 +1,24 @@
+[5.149s] Invoking command in '/userdata/lrj_test_mppi/src/vlm_demo': PYTHONPATH=/userdata/lrj_test_mppi/build/vlm_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/lrj_test_mppi/install/vlm_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vlm_demo build --build-base /userdata/lrj_test_mppi/build/vlm_demo/build install --record /userdata/lrj_test_mppi/build/vlm_demo/install.log --single-version-externally-managed install_data
+[7.005s] running egg_info
+[7.010s] writing ../../build/vlm_demo/vlm_demo.egg-info/PKG-INFO
+[7.012s] writing dependency_links to ../../build/vlm_demo/vlm_demo.egg-info/dependency_links.txt
+[7.013s] writing entry points to ../../build/vlm_demo/vlm_demo.egg-info/entry_points.txt
+[7.014s] writing requirements to ../../build/vlm_demo/vlm_demo.egg-info/requires.txt
+[7.016s] writing top-level names to ../../build/vlm_demo/vlm_demo.egg-info/top_level.txt
+[7.028s] reading manifest file '../../build/vlm_demo/vlm_demo.egg-info/SOURCES.txt'
+[7.034s] writing manifest file '../../build/vlm_demo/vlm_demo.egg-info/SOURCES.txt'
+[7.035s] running build
+[7.036s] running build_py
+[7.037s] copying vlm_demo/vlm_infer_node.py -> /userdata/lrj_test_mppi/build/vlm_demo/build/lib/vlm_demo
+[7.038s] running install
+[7.040s] running install_lib
+[7.044s] copying /userdata/lrj_test_mppi/build/vlm_demo/build/lib/vlm_demo/vlm_infer_node.py -> /userdata/lrj_test_mppi/install/vlm_demo/lib/python3.10/site-packages/vlm_demo
+[7.049s] byte-compiling /userdata/lrj_test_mppi/install/vlm_demo/lib/python3.10/site-packages/vlm_demo/vlm_infer_node.py to vlm_infer_node.cpython-310.pyc
+[7.053s] running install_data
+[7.054s] running install_egg_info
+[7.064s] removing '/userdata/lrj_test_mppi/install/vlm_demo/lib/python3.10/site-packages/vlm_demo-0.0.0-py3.10.egg-info' (and everything under it)
+[7.066s] Copying ../../build/vlm_demo/vlm_demo.egg-info to /userdata/lrj_test_mppi/install/vlm_demo/lib/python3.10/site-packages/vlm_demo-0.0.0-py3.10.egg-info
+[7.072s] running install_scripts
+[7.207s] Installing vlm_infer_node script to /userdata/lrj_test_mppi/install/vlm_demo/lib/vlm_demo
+[7.209s] writing list of installed files to '/userdata/lrj_test_mppi/build/vlm_demo/install.log'
+[7.413s] Invoked command in '/userdata/lrj_test_mppi/src/vlm_demo' returned '0': PYTHONPATH=/userdata/lrj_test_mppi/build/vlm_demo/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/userdata/lrj_test_mppi/install/vlm_demo/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/vlm_demo build --build-base /userdata/lrj_test_mppi/build/vlm_demo/build install --record /userdata/lrj_test_mppi/build/vlm_demo/install.log --single-version-externally-managed install_data

@@ -1,0 +1,3 @@
+[console_scripts]
+qrcode_node = qrcode.qrcode:main
+

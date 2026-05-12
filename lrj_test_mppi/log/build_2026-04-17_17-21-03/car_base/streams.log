@@ -1,0 +1,65 @@
+[0.267s] Invoking command in '/userdata/lrj_test_mppi/build/car_base': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/origincar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/origincar_msg:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/serial/lib:/userdata/lrj_test_mppi/install/origincar_msg/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/origincar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /userdata/lrj_test_mppi/src/car_base -DSTREAM_SDK_TYPE=AURORA930 -DCMAKE_INSTALL_PREFIX=/userdata/lrj_test_mppi/install/car_base
+[2.464s] -- Found ament_cmake: 1.3.14 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.466s] -- Found rclcpp: 16.0.19 (/opt/ros/humble/share/rclcpp/cmake)
+[2.467s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.473s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.475s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.481s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.484s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.486s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.489s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.490s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.666s] -- Found sensor_msgs: 4.9.1 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.854s] -- Found std_srvs: 4.9.1 (/opt/ros/humble/share/std_srvs/cmake)
+[2.924s] -- Found origincar_msg: 0.0.0 (/userdata/lrj_test_mppi/install/origincar_msg/share/origincar_msg/cmake)
+[3.053s] -- Found serial: 1.2.1 (/userdata/lrj_test_mppi/install/serial/share/serial/cmake)
+[3.067s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.698s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.703s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[3.705s] -- Configured cppcheck include dirs: /userdata/lrj_test_mppi/src/car_base/include
+[3.706s] -- Configured cppcheck exclude dirs and/or files: 
+[3.710s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[3.711s] -- Configured cpplint exclude dirs and/or files: 
+[3.712s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.714s] -- Added test 'lint_cmake' to check CMake code style
+[3.716s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.721s] -- Added test 'uncrustify' to check C / C++ code style
+[3.722s] -- Configured uncrustify additional arguments: 
+[3.724s] -- Added test 'xmllint' to check XML markup files
+[3.731s] -- Configuring done
+[3.821s] -- Generating done
+[3.829s] [33mCMake Warning:
+[3.830s]   Manually-specified variables were not used by the project:
+[3.831s] 
+[3.831s]     STREAM_SDK_TYPE
+[3.832s] 
+[3.833s] [0m
+[3.849s] -- Build files have been written to: /userdata/lrj_test_mppi/build/car_base
+[3.920s] Invoked command in '/userdata/lrj_test_mppi/build/car_base' returned '0': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/origincar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/origincar_msg:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/serial/lib:/userdata/lrj_test_mppi/install/origincar_msg/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/origincar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /userdata/lrj_test_mppi/src/car_base -DSTREAM_SDK_TYPE=AURORA930 -DCMAKE_INSTALL_PREFIX=/userdata/lrj_test_mppi/install/car_base
+[3.925s] Invoking command in '/userdata/lrj_test_mppi/build/car_base': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/origincar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/origincar_msg:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/serial/lib:/userdata/lrj_test_mppi/install/origincar_msg/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/origincar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /userdata/lrj_test_mppi/build/car_base -- -j8 -l8
+[4.134s] [35m[1mConsolidate compiler generated dependencies of target car_base_node[0m
+[4.250s] [100%] Built target car_base_node
+[4.306s] Invoked command in '/userdata/lrj_test_mppi/build/car_base' returned '0': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/origincar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/origincar_msg:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/serial/lib:/userdata/lrj_test_mppi/install/origincar_msg/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/origincar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /userdata/lrj_test_mppi/build/car_base -- -j8 -l8
+[4.316s] Invoking command in '/userdata/lrj_test_mppi/build/car_base': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/origincar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/origincar_msg:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/serial/lib:/userdata/lrj_test_mppi/install/origincar_msg/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/origincar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /userdata/lrj_test_mppi/build/car_base
+[4.351s] -- Install configuration: ""
+[4.360s] -- Up-to-date: /userdata/lrj_test_mppi/install/car_base/lib/car_base/car_base_node
+[4.365s] -- Up-to-date: /userdata/lrj_test_mppi/install/car_base/share/car_base/launch
+[4.367s] -- Up-to-date: /userdata/lrj_test_mppi/install/car_base/share/car_base/launch/base_serial.launch.py
+[4.368s] -- Up-to-date: /userdata/lrj_test_mppi/install/car_base/share/car_base/launch/__pycache__
+[4.370s] -- Up-to-date: /userdata/lrj_test_mppi/install/car_base/share/car_base/launch/__pycache__/testtwo.launch.cpython-38.pyc
+[4.376s] -- Up-to-date: /userdata/lrj_test_mppi/install/car_base/share/ament_index/resource_index/package_run_dependencies/car_base
+[4.379s] -- Up-to-date: /userdata/lrj_test_mppi/install/car_base/share/ament_index/resource_index/parent_prefix_path/car_base
+[4.380s] -- Up-to-date: /userdata/lrj_test_mppi/install/car_base/share/car_base/environment/ament_prefix_path.sh
+[4.394s] -- Installing: /userdata/lrj_test_mppi/install/car_base/share/car_base/environment/ament_prefix_path.dsv
+[4.398s] -- Up-to-date: /userdata/lrj_test_mppi/install/car_base/share/car_base/environment/path.sh
+[4.406s] -- Installing: /userdata/lrj_test_mppi/install/car_base/share/car_base/environment/path.dsv
+[4.409s] -- Up-to-date: /userdata/lrj_test_mppi/install/car_base/share/car_base/local_setup.bash
+[4.413s] -- Up-to-date: /userdata/lrj_test_mppi/install/car_base/share/car_base/local_setup.sh
+[4.414s] -- Up-to-date: /userdata/lrj_test_mppi/install/car_base/share/car_base/local_setup.zsh
+[4.415s] -- Installing: /userdata/lrj_test_mppi/install/car_base/share/car_base/local_setup.dsv
+[4.417s] -- Installing: /userdata/lrj_test_mppi/install/car_base/share/car_base/package.dsv
+[4.420s] -- Up-to-date: /userdata/lrj_test_mppi/install/car_base/share/ament_index/resource_index/packages/car_base
+[4.421s] -- Up-to-date: /userdata/lrj_test_mppi/install/car_base/share/car_base/cmake/car_baseConfig.cmake
+[4.425s] -- Up-to-date: /userdata/lrj_test_mppi/install/car_base/share/car_base/cmake/car_baseConfig-version.cmake
+[4.427s] -- Up-to-date: /userdata/lrj_test_mppi/install/car_base/share/car_base/package.xml
+[4.431s] Invoked command in '/userdata/lrj_test_mppi/build/car_base' returned '0': AMENT_PREFIX_PATH=/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/origincar_msg:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/userdata/lrj_test_mppi/install/serial:/userdata/lrj_test_mppi/install/origincar_msg:/userdata/dev_ws/install/utils:/userdata/dev_ws/install/origincar_base:/userdata/dev_ws/install/serial:/userdata/dev_ws/install/origincar_msg:/userdata/dev_ws/install/origincar_description:/userdata/dev_ws/install/origincar_bringup:/userdata/dev_ws/install/ackermann_msgs:/opt/tros/humble:/opt/ros/humble LD_LIBRARY_PATH=/userdata/lrj_test_mppi/install/serial/lib:/userdata/lrj_test_mppi/install/origincar_msg/lib:/userdata/dev_ws/install/origincar_base/lib:/userdata/dev_ws/install/serial/lib:/userdata/dev_ws/install/origincar_msg/lib:/userdata/dev_ws/install/ackermann_msgs/lib:/opt/tros/humble/lib/aarch64-linux-gnu:/opt/tros/humble/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/hobot/lib:/app/lib:/app/pub/lib:/middleware/lib:/middleware/pub/lib:/usr/hobot/lib/sensor:/system/lib:/system/usr/lib:/lib PYTHONPATH=/userdata/lrj_test_mppi/install/origincar_msg/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /userdata/lrj_test_mppi/build/car_base

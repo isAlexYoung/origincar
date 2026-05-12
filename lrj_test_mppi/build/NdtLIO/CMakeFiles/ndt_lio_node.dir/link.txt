@@ -1,0 +1,2 @@
+/usr/bin/ar qc libndt_lio_node.a CMakeFiles/ndt_lio_node.dir/ros2node/ndt_lio_node.cpp.o
+/usr/bin/ranlib libndt_lio_node.a
