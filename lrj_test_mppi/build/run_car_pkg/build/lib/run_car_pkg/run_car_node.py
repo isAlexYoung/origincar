@@ -100,9 +100,10 @@ class ControlSubscriber(Node):
             #     # self.cmd_vel_( self.current_v, 0.0 )
             # else:
             self.cmd_vel_( self.current_v, output * self.Coefficient_output )
-            self.get_logger().info("当前轮子转向的角度: " + str(output))
+            # self.get_logger().info("当前轮子转向的角度: " + str(output))
             # self.get_logger().info( self.goal_pos_task1[1], self.current_pos[1], self.goal_pos_task1[0], self.current_pos[0] )
-    
+            self.get_logger().info(f"正在前往第二维码发布点，目标坐标: {self.goal_pos_task1}, 当前坐标: ({self.current_pos[0]:.2f}, {self.current_pos[1]:.2f})" + str(output))
+                
     def Task2_Control(self):
         self.cmd_vel_(0.0, 0.0)
         # self.get_logger().info("doing task2")
@@ -149,6 +150,7 @@ class ControlSubscriber(Node):
                 self.cmd_vel_(1.5, output * self.Coefficient_output)
             
             # self.get_logger().info( self.goal_pos_task3[0], self.current_pos[0], self.goal_pos_task3[1], self.current_pos[1] )
+            self.get_logger().info(f"任务3: 正在前往终点，目标坐标: {self.goal_pos_task3}, 当前坐标: ({self.current_pos[0]:.2f}, {self.current_pos[1]:.2f})" + str(output))
 
     def Task4_back_Control(self):
         with self.lock:

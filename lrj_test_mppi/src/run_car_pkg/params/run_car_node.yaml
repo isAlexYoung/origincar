@@ -11,19 +11,19 @@ detection_node:
     obst_task3_high_threshold: 1300           # 任务三读取障碍物数据的最高画面像素阈值
     obst_task4_high_threshold: 1300           # 任务四读取障碍物数据的最高画面像素阈值
     next_task_point_threshold: 0.07           # 绕圈任务切点的阈值（）
-    obst_threshold_taskx: 700                 # 避障像素阈值(越大，避障时与障碍物越近，大小需适中)
+    obst_threshold_taskx: 810                 # 避障像素阈值(越大，避障时与障碍物越近，大小需适中)
     obst_clear_threshold: 1000                # 清除避障像素阈值
     distance_to_qrcode_threshold: 0.36        # 随机绕圈阈值
     back_duration: 1.5                        # 倒车时间
-    current_v: 1.5                            # 正常行进速度
+    current_v: 1.0                            # 正常行进速度
     ctrl_ts: 0.02                             # 50Hz判断当前任务的回调函数
-    speed_turn: 3.0                           # 转向速度系数
+    speed_turn: 2.0                           # 转向速度系数
     end_target_bias: 200                      # 通道到终点的扰动像素值
     self.obst_two_center: 1300                # 从两障碍物中间穿过的阈值
     obst_center_threshoud: 200                # 判定障碍物在中心的阈值，提前避障
     Kp: 4.0
     Ki: 0.
-    Kd: 0.
+    Kd: 0.01
     speed_back: -1.0                          #倒车速度
     random_flag: 1                            #随机绕圈标志位，0为顺时针，1为逆时针
     self.Coefficient_output: 1.0              # PID输出乘的系数，增大后转弯更快，但可能不够平稳
