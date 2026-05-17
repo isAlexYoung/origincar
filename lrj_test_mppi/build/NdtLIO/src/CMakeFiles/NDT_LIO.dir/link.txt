@@ -1,2 +1,0 @@
-/usr/bin/ar qc libNDT_LIO.a CMakeFiles/NDT_LIO.dir/ndt_inc.cpp.o CMakeFiles/NDT_LIO.dir/occupancy_map.cpp.o CMakeFiles/NDT_LIO.dir/map.cpp.o CMakeFiles/NDT_LIO.dir/eskf.cpp.o CMakeFiles/NDT_LIO.dir/ieskf.cpp.o CMakeFiles/NDT_LIO.dir/frontend.cpp.o CMakeFiles/NDT_LIO.dir/incrementalNDTLO.cpp.o
-/usr/bin/ranlib libNDT_LIO.a

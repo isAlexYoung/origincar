@@ -1,3 +1,0 @@
-[console_scripts]
-run_car_node = run_car_pkg.run_car_node:main
-
