@@ -1,5 +1,0 @@
-[01m[Kc++:[m[K [01;31m[Kfatal error: [m[KKilled signal terminated program cc1plus
-compilation terminated.
-gmake[2]: *** [CMakeFiles/rm_mppi_controller_plugin.dir/build.make:76: CMakeFiles/rm_mppi_controller_plugin.dir/src/mppi_controller.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/rm_mppi_controller_plugin.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

@@ -1,2 +1,0 @@
-[0.239s] Invoking command in '/userdata/lrj_test_mppi/build/rm_mppi_controller': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/tros/humble:/opt/ros/humble /usr/bin/cmake --build /userdata/lrj_test_mppi/build/rm_mppi_controller -- -j8 -l8
-[0.713s] [ 50%] [32mBuilding CXX object CMakeFiles/rm_mppi_controller_plugin.dir/src/mppi_controller.cpp.o[0m
