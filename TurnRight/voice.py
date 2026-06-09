@@ -19,7 +19,7 @@ PC_URL = "http://192.168.144.30:8000/describe" # 229_WIFI1
 # PC_URL = "http://10.122.97.91:8000/describe" # OPPO Reno
 # PC_URL = "http://192.168.43.11:8000/describe" # Young_999
 
-WATCH_DIR = "/userdata/lrj_test_mppi/voice/"
+WATCH_DIR = "/userdata/TurnRight/voice/"
 VALID_EXT = (".jpg", ".jpeg", ".png")
 
 # 屏幕分辨率（4.3寸常见 800x480）

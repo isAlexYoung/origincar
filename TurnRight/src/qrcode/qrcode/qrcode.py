@@ -26,10 +26,10 @@ class QrCodeDetection(Node):
     self.OdomTestSub = self.create_subscription(Pose2D, 'odom_test', self.odom_test_callback, 10)
     try:
             self.detector = cv2.wechat_qrcode_WeChatQRCode(
-                "/userdata/lrj_test_mppi/src/qrcode/qrcode/model/detect.prototxt",
-                "/userdata/lrj_test_mppi/src/qrcode/qrcode/model/detect.caffemodel",
-                "/userdata/lrj_test_mppi/src/qrcode/qrcode/model/sr.prototxt",
-                "/userdata/lrj_test_mppi/src/qrcode/qrcode/model/sr.caffemodel"
+                "/userdata/TurnRight/src/qrcode/qrcode/model/detect.prototxt",
+                "/userdata/TurnRight/src/qrcode/qrcode/model/detect.caffemodel",
+                "/userdata/TurnRight/src/qrcode/qrcode/model/sr.prototxt",
+                "/userdata/TurnRight/src/qrcode/qrcode/model/sr.caffemodel"
             )
             self.get_logger().info(f"WeChat二维码模型加载成功")
     except Exception as e:

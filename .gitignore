@@ -64,3 +64,4 @@ voice/*.jpg
 !voice/.gitkeep
 
 src/qrcode_copy/
+launch/__pycache__/
