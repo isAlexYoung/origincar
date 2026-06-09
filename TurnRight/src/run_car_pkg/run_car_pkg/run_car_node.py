@@ -715,7 +715,7 @@ class ControlSubscriber(Node):
         self.obst_target_err = False
         # 拍照相关
         self.need_capture = False
-        self.capture_dir = '/userdata/lrj_test_mppi/voice/'
+        self.capture_dir = '/userdata/TurnRight/voice/'
         os.makedirs(self.capture_dir, exist_ok=True)
 
         self.task = TASK2
