@@ -56,4 +56,6 @@ var/
 .idea/
 *.sublime-project
 *.sublime-workspace
-.DS_Store
+.DS_Storeconfig/
+dev_ws/
+config/
