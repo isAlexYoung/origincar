@@ -59,3 +59,9 @@ var/
 .DS_Storeconfig/
 dev_ws/
 config/
+
+
+# 忽略 voice/ 目录下的所有文件
+voice/*
+# 但是排除 .gitkeep，保证目录能被 Git 跟踪
+!voice/.gitkeep
