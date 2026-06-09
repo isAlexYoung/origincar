@@ -86,7 +86,7 @@ class QrCodeDetection(Node):
         # ROI裁剪，只处理有效区域，进一步降低计算量
         self.get_logger().info("正在处理图像帧...")
         # cv2_image = self.bridge.imgmsg_to_cv2(msg, desired_encoding='mono8')[155:, :]
-        cv2_image = self.bridge.compressed_imgmsg_to_cv2(msg, desired_encoding='mono8')
+        cv2_image = self.bridge.compressed_imgmsg_to_cv2(msg, desired_encoding='bgr8')
         
         #保存图像
         save_path = "/userdata/lrj_test_mppi/config"

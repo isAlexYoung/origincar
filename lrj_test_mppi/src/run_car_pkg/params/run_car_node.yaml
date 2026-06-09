@@ -1,30 +1,46 @@
 detection_node:
   ros__parameters:
-    camera_matrix: [677.1356,      0.0,        916.8761, 
+    camera_matrix: [677.1356,      0.0,        906.8761, 
                       0.0,       676.2960,     235.4413, 
                       0.0,         0.0,          1.0     ]  
     stop_qrcode_threshold: 200                # 二维码停车像素阈值，到达即切换任务     190
     stop_end_threshold: 1000                  # 终点停车像素阈值（溜车像素）
     obst_low_threshold: 300                   # 读取障碍物数据的最低画面像素阈值（障碍物在水平方向距离左边界的最小阈值，以确定是否读取障碍物信息）
-    obst_hight_threshold: 1300                # 读取障碍物数据的最高画面像素阈值默认值
-    obst_task1_high_threshold: 1300           # 任务一读取障碍物数据的最高画面像素阈值（任务123,需根据障碍物的密集程度确定要不要读取障碍物信息）
-    obst_task3_high_threshold: 1300           # 任务三读取障碍物数据的最高画面像素阈值
-    obst_task4_high_threshold: 1300           # 任务四读取障碍物数据的最高画面像素阈值
-    next_task_point_threshold: 0.07           # 绕圈任务切点的阈值（）
-    obst_threshold_taskx: 810                 # 避障像素阈值(越大，避障时与障碍物越近，大小需适中)
-    obst_clear_threshold: 1000                # 清除避障像素阈值
-    distance_to_qrcode_threshold: 0.36        # 随机绕圈阈值
-    back_duration: 1.5                        # 倒车时间
+    obst_hight_threshold: 1800                # 读取障碍物数据的最高画面像素阈值默认值
+    next_task_point_threshold: 0.08           # 绕圈任务切点的阈值（）
+    distance_to_qrcode_threshold: 0.16        # 随机绕圈阈值（到二维码的距离的平方）
     current_v: 1.0                            # 正常行进速度
     ctrl_ts: 0.02                             # 50Hz判断当前任务的回调函数
-    speed_turn: 2.0                           # 转向速度系数
-    end_target_bias: 200                      # 通道到终点的扰动像素值
-    self.obst_two_center: 1300                # 从两障碍物中间穿过的阈值
-    obst_center_threshoud: 200                # 判定障碍物在中心的阈值，提前避障
-    Kp: 4.0
-    Ki: 0.
+    speed_turn: 1.3                           # 转向速度系数
+    end_target_bias: 50                       # 通道到终点的扰动像素值
+    Kp: 4.0 
+    Ki: 0.0
     Kd: 0.01
-    speed_back: -1.0                          #倒车速度
+    speed_back: -0.8                          #倒车速度
     random_flag: 1                            #随机绕圈标志位，0为顺时针，1为逆时针
-    self.Coefficient_output: 1.0              # PID输出乘的系数，增大后转弯更快，但可能不够平稳
-    quit_point: 4                             # 绕圈退出点，默认值为1，即绕完第一个点就退出
+    Coefficient_output: 1.0                   # PID输出乘的系数，增大后转弯更快，但可能不够平稳
+    quit_point: 99                            # 绕圈退出点，默认值为1，即绕完第一个点就退出
+    Coefficient_output_point: 0.07            # 视觉修正系数
+    lidar_fov: 1.4                            # 前方搜索半角(rad)，~80°
+    lidar_influence: 1.0                      # 影响半径(m)，超过此距离的障碍忽略
+    lidar_range_min: 0.15                     # 小于此距离的点丢弃(去自身/杂点)
+    lidar_safe_clearance: 0.10                # 想额外留的间隙(m)  ←主要调这个
+    car_half_width: 0.10                      # 车半宽(车宽20cm)
+    obstacle_radius: 0.05                     # 锥筒切面半径
+    lidar_min_gap: 0.                         # 可通行空隙的最小角宽(rad)
+    lidar_edge_margin: 0.10                   # 瞄准空隙时离边缘留的角度余量(rad)
+    goal_approach_dist: 1.0                   # 距目标小于此值时关闭避障直奔目标(m)
+    lidar_invert: 1.0                         # 雷达左右若反了改成 -1.0
+    car_half_length: 0.125                    # 车半长(车长25cm)
+    back_omega: 4.0                           # 倒车打方向：正=右(按你说的)，打死≈4.0；若实测向左打改 -4.0
+    back_max_time: 2.0                        # 倒车最大时间(安全超时)
+    back_stop_py_low: 0.75                    # 倒车停车：py 下限
+    back_stop_py_high: 1.25                   # 倒车停车：py 上限
+    back_stop_yaw: 1.57                       # 倒车停车：yaw 须大于此值
+    back_obst_dist: 0.35                      # 后方锥筒触发距离(雷达到车尾还差0.125m)
+    back_fov: 0.6                             # 后方监视扇区半角(rad)，~34°
+    back_obst_stop: 1                         # 即变量 a：1=后方有锥筒就停，0=忽略后方一直倒
+    fence_enable: 1                           # 禁行区围栏开关
+    fence_margin: 0.05                        # 围栏安全余量(m)，必须 < 0.09
+    task1_cruise_px: 2.5                      # Task1 前半程：px 小于此值时压低目标
+    task1_cruise_py: 0.9                      # 前半程瞄准的低 py 目标(越小轨迹越贴下方)

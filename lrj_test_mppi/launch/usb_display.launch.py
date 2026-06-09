@@ -41,8 +41,8 @@ def generate_launch_description():
     
     # depth_camera_node = ExecuteProcess(
     #     cmd=['ros2', 'launch', '/userdata/lrj_test_mppi/launch/aurora930_launch.py'],
-    #     output='log',  # Êä³öµ½ÈÕÖ¾ÎÄ¼þ£¬²»ÔÚÖÕ¶ËÏÔÊ¾
-    #     # output='none',  # ÍêÈ«½ûÖ¹Êä³ö£¨ROS 2 Foxy+ Ö§³Ö£©
+    #     output='log',  # ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Ö¾ï¿½Ä¼ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½Õ¶ï¿½ï¿½ï¿½Ê¾
+    #     # output='none',  # ï¿½ï¿½È«ï¿½ï¿½Ö¹ï¿½ï¿½ï¿½ï¿½ï¿½ROS 2 Foxy+ Ö§ï¿½Ö£ï¿½
     # )
     
     # Algorithm node

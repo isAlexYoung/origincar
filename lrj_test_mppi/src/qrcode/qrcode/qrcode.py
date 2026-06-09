@@ -11,6 +11,7 @@ from tf_transformations import euler_from_quaternion
 import pyzbar.pyzbar as pyzbar
 import os
 from datetime import datetime
+from geometry_msgs.msg import Twist, TransformStamped, Pose2D
 
 TASK1 = 1
 TASK2 = 3
@@ -22,7 +23,7 @@ class QrCodeDetection(Node):
     self.ImageSub = self.create_subscription(CompressedImage, '/image', self.image_callback, 10)
     self.qrcode_publisher = self.create_publisher(String, "/qrcode_information", 10)
     self.SignSwitchSub = self.create_subscription(Sign, "/sign_switch", self.sign_switch_callback, 10)
-    
+    self.OdomTestSub = self.create_subscription(Pose2D, 'odom_test', self.odom_test_callback, 10)
     try:
             self.detector = cv2.wechat_qrcode_WeChatQRCode(
                 "/userdata/lrj_test_mppi/src/qrcode/qrcode/model/detect.prototxt",
@@ -38,21 +39,16 @@ class QrCodeDetection(Node):
     self.info_result = String()
     self.bridge = CvBridge()
     self.sign_msg = Sign()
-    self.node_run = False   #TODO
-    self.qr_exist_flag = False  
-    self.half_field = False 
+    # self.node_run = False   #TODO 实际扫码极限距离小于半场，True和False都能满足需求，暂时不启用过半场限制
+    # self.qr_exist_flag = False  
+    # self.half_field = False 
 
-    # self.node_run = True   #TODO
-    # self.qr_exist_flag = True  
-    # self.half_field = True  
+    self.node_run = True   #TODO
+    self.qr_exist_flag = True  
+    self.half_field = True  
     self.task = TASK2  
-    self.current_pos = [0.0, 0.0, 0.0, 0.0, 0.0]  # x y theta v omega8
+    self.current_pos = [0.0, 0.0, 0.0]  # x y theta v omega8
     
-    self.Odomsub = None  # TF订阅句柄，单独管理生命周期
-    
-    # 重入保护标志位
-    # self.decode_in_progress = False
-    self.init_tf_subscription()  # 初始化TF订阅
     
   def sign_switch_callback(self, msg): 
     # 安全检查，确保消息格式正确，防止因消息异常导致节点崩溃
@@ -68,11 +64,6 @@ class QrCodeDetection(Node):
             self.task = TASK1
             self.get_logger().info("任务一中")
     
-  def init_tf_subscription(self): 
-    
-    if self.Odomsub is None and not self.half_field:
-        self.Odomsub = self.create_subscription(TFMessage,'/tf',self.Odom_callback,10)
-        self.get_logger().info("TF里程计订阅已创建")
   def image_callback(self, msg):
     #上一次解码未完成时直接丢弃当前帧 
     
@@ -119,29 +110,12 @@ class QrCodeDetection(Node):
                     rclpy.shutdown()
             return
         
-  def Odom_callback(self, msg):  
-    current_task = self.task
-    if current_task != TASK1:
-        return
-    else:
-        for transform in msg.transforms:
-            # 只处理odom -> base的坐标变换
-            if transform.header.frame_id == "odom" and transform.child_frame_id == "base":
-                # 状态修改、订阅销毁全流程加锁，杜绝竞态与重复销毁
-                self.current_pos[0] = transform.transform.translation.x
-                # 过半场判断
-                if self.current_pos[0] > 2 and not self.half_field:
-                    self.half_field = True
-                    self.node_run = True
-                    self.get_logger().info(f"已过半场,x坐标: {self.current_pos[0]:.2f}，二维码解码已开启")
-                    
-                    # 判断句柄非空后销毁，赋值None确保只执行一次
-                    if self.Odomsub is not None:
-                        self.destroy_subscription(self.Odomsub)
-                        self.Odomsub = None
-                        self.get_logger().info("已过半场,TF里程计订阅已永久销毁,停止位置数据接收")  
-            
-            break               
+  def odom_test_callback(self, msg):
+        self.current_pos[0] = msg.x
+        if self.current_pos[0] > 2.4 and not self.half_field:
+            self.half_field = True
+            self.node_run = True
+            self.get_logger().info(f"已过半场,x坐标: {self.current_pos[0]:.2f}，二维码解码已开启")
             
 def main(args=None):
     rclpy.init(args=args)
