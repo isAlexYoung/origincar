@@ -67,15 +67,15 @@ def generate_launch_description():
         arguments=['--ros-args', '--log-level', 'info']
     )
     
-    # qrcode_node = Node(
-    #     package='qrcode',
-    #     executable='qrcode_node',
-    #     output='screen',
-    # )
+    qrcode_node = Node(
+        package='qrcode',
+        executable='qrcode_node',
+        output='screen',
+    )
     
     return LaunchDescription(launch_args + [
         # depth_camera_node,
-        # qrcode_node,
+        qrcode_node,
         usb_node,
         nv12_codec_node,
         dnn_node_example_node,

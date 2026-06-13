@@ -14,6 +14,10 @@ from std_msgs.msg import String
 from watchdog.observers import Observer
 from watchdog.events import FileSystemEventHandler
 
+import cv2
+from cv_bridge import CvBridge
+from std_msgs.msg import Int32
+from sensor_msgs.msg import CompressedImage
 
 PC_URL = "http://192.168.144.30:8000/describe" # 229_WIFI1
 # PC_URL = "http://10.122.97.91:8000/describe" # OPPO Reno
@@ -91,6 +95,13 @@ class QRCodeDisplayNode(Node):
             String, '/qrcode_information', self.qr_callback, 10
         )
         self.get_logger().info("二维码显示节点已启动，监听 /qrcode_information")
+        # 拍照：缓存最新帧 + 收主程序信号存图
+        self.bridge = CvBridge()
+        self.latest_frame = None
+        self.frame_lock = threading.Lock()
+        self.create_subscription(CompressedImage, '/image', self.image_cb, 10)
+        self.create_subscription(Int32, '/capture_trigger', self.capture_cb, 10)
+        self.get_logger().info("拍照节点已就绪，监听 /image 与 /capture_trigger")
 
     def qr_callback(self, msg):
         if self.qr_shown:
@@ -111,6 +122,31 @@ class QRCodeDisplayNode(Node):
         display_queue.put({"type": "qr", "text": text})
         self.qr_shown = True
 
+    def image_cb(self, msg):
+        try:
+            frame = self.bridge.compressed_imgmsg_to_cv2(msg, desired_encoding='bgr8')
+            with self.frame_lock:
+                self.latest_frame = frame
+        except Exception as e:
+            self.get_logger().error(f"[拍照] 解码失败: {e}")
+
+    def capture_cb(self, msg):
+        if msg.data != 1:
+            return
+        with self.frame_lock:
+            frame = None if self.latest_frame is None else self.latest_frame.copy()
+        if frame is None:
+            self.get_logger().warn("[拍照] 收到信号但还没有图像帧")
+            return
+        final = os.path.join(WATCH_DIR, f"capture_{int(time.time()*1000)}.jpg")
+        try:
+            ok = cv2.imwrite(final, frame)         # 直接写 .jpg，imwrite 认得
+            if not ok:
+                self.get_logger().error("[拍照] imwrite 返回 False")
+                return
+            self.get_logger().info(f"[拍照] 已保存: {final}")
+        except Exception as e:
+            self.get_logger().error(f"[拍照] 保存失败: {e}")
 
 # ============== 屏幕显示部分 ==============
 
