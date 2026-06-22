@@ -126,16 +126,16 @@ source install/setup.bash
 ### 小车端
 
 ```bash
-# 1. 底盘 / 传感器启动
+# 1. 底盘 / 传感器
 ros2 launch ~/TurnRight/launch/bringup_launch.py
 
 # 2. 主控逻辑
 ros2 launch ~/TurnRight/launch/run_car_node.launch.py
 
-# 3. USB 显示
+# 3. 摄像头与扫码节点
 ros2 launch ~/TurnRight/launch/usb_display.launch.py
 
-# 4. 任务切换（调试）
+# 4. 任务切换(初始默认任务2)
 python3 ~/TurnRight/test_scripts/test_taskswitch.py
 
 # 5. 屏幕显示
