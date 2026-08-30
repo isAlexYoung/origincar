@@ -2,7 +2,7 @@ from setuptools import setup
 import os
 from glob import glob
 
-package_name = 'odom_test'
+package_name = 'mylio'
 
 setup(
     name=package_name,
@@ -12,8 +12,6 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        # ========== 核心修改1：安装模型文件到共享目录 ==========
-        # (os.path.join('share', package_name, 'model'), glob('odom_test/model/*')),
     ],
     install_requires=[
         'setuptools',
@@ -26,7 +24,7 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'odom_test_node = odom_test.odom_test:main',
+            'mylio_node = mylio.mylio:main',
         ],
     },
 )
