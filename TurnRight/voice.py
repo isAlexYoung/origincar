@@ -6,6 +6,7 @@ import requests
 import signal
 import tkinter as tk
 import tkinter.font as tkfont
+import io
 
 import rclpy
 from rclpy.node import Node
@@ -19,9 +20,9 @@ from cv_bridge import CvBridge
 from std_msgs.msg import Int32
 from sensor_msgs.msg import CompressedImage
 
-PC_URL = "http://192.168.144.30:8000/describe" # 229_WIFI1
+# PC_URL = "http://192.168.144.30:8000/describe" # 229_WIFI1
 # PC_URL = "http://10.122.97.91:8000/describe" # OPPO Reno
-# PC_URL = "http://192.168.43.11:8000/describe" # Young_999
+PC_URL = "http://192.168.43.11:8988/describe" # Young_999
 
 WATCH_DIR = "/userdata/TurnRight/voice/"
 VALID_EXT = (".jpg", ".jpeg", ".png")
@@ -36,11 +37,36 @@ shutdown_flag = threading.Event()
 
 # ============== 图生文部分 ==============
 
-def describe_image(image_path):
-    with open(image_path, "rb") as f:
-        r = requests.post(PC_URL, files={"file": f}, timeout=30)
-    return r.json()["text"]
+# def describe_image(image_path):
+#     with open(image_path, "rb") as f:
+#         r = requests.post(PC_URL, files={"file": f}, timeout=30)
+#     return r.json()["text"]
 
+def describe_image(image_path):
+    # 读取本地保存的整张图片
+    img = cv2.imread(image_path)
+    if img is None:
+        raise ValueError(f"无法读取图片: {image_path}")
+    
+    # 裁剪下半部分
+    height, width = img.shape[:2]
+    bottom_half = img[height // 2:, :]  # 从中间到底部，宽度全选
+    
+    # 将裁剪后的下半部分编码为 JPEG 格式的字节流
+    success, encoded_image = cv2.imencode('.jpg', bottom_half)
+    if not success:
+        raise ValueError("图片编码失败")
+    
+    # 转换为字节流对象，方便 requests 发送
+    image_bytes = io.BytesIO(encoded_image.tobytes())
+    
+    # 发送给 PC 端
+    r = requests.post(
+        PC_URL, 
+        files={"file": ("image.jpg", image_bytes, "image/jpeg")}, 
+        timeout=30
+    )
+    return r.json()["text"]
 
 def wait_until_stable(path, check_interval=0.3, stable_rounds=2):
     last_size = -1
