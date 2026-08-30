@@ -36,12 +36,6 @@ display_queue = queue.Queue()
 shutdown_flag = threading.Event()
 
 # ============== 图生文部分 ==============
-
-# def describe_image(image_path):
-#     with open(image_path, "rb") as f:
-#         r = requests.post(PC_URL, files={"file": f}, timeout=30)
-#     return r.json()["text"]
-
 def describe_image(image_path):
     # 读取本地保存的整张图片
     img = cv2.imread(image_path)
