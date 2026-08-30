@@ -1,64 +1,105 @@
-class PID():
-    def __init__( self, dt ):
+"""Small PID controller used by the steering loop."""
+
+
+class PID:
+    """Discrete PID controller with integral and output limits."""
+
+    def __init__(self, dt):
+        if dt <= 0.0:
+            raise ValueError('PID dt must be greater than zero')
+
         self.kp = 0.0
         self.ki = 0.0
         self.kd = 0.0
-        
+        self.dt = float(dt)
+
         self.reference = 0.0
         self.error = 0.0
         self.prev_error = 0.0
         self.integral = 0.0
         self.derivative = 0.0
         self.output = 0.0
-        self.dt = dt
-        
-        self.integralLimit = 0.0
-        self.outputLimit = 0.0
-    
-    def setKp( self, kp ):
-        self.kp = kp
-    
-    def setKi( self, ki ):
-        self.ki = ki
-        
-    def setKd( self, kd ):
-        self.kd = kd
-    
-    def setDt( self, dt ):
-        self.dt = dt
-        
-    def setIntegralLimit( self, integralLimit ):
-        self.integralLimit = integralLimit
-    
-    def setOutputLimit( self, outputLimit ):
-        self.outputLimit = outputLimit
-    
-    def update( self, reference, actual ):
-        self.reference = reference # 设定值
-        self.error = self.reference - actual    # 误差
-        self.integral += self.error * self.dt   # 积分
-        self.integral = max( min( self.integral, self.integralLimit ), -self.integralLimit ) # 积分限幅
-        self.derivative = ( self.error - self.prev_error ) / self.dt # 微分
-        self.output = ( self.kp * self.error ) + ( self.ki * self.integral ) + ( self.kd * self.derivative ) # PID输出
-        self.prev_error = self.error # 更新上次误差
-        self.output = float(max( min( self.output, self.outputLimit ), -self.outputLimit )) # 输出限幅
-        return self.output
-    
-    def update_err( self, err ):
-        self.error = err
-        self.integral += self.error * self.dt   # 积分
-        self.integral = max( min( self.integral, self.integralLimit ), -self.integralLimit ) # 积分限幅
-        self.derivative = ( self.error - self.prev_error ) / self.dt # 微分
-        self.output = ( self.kp * self.error ) + ( self.ki * self.integral ) + ( self.kd * self.derivative ) # PID输出
-        self.prev_error = self.error # 更新上次误差
-        self.output = float(max( min( self.output, self.outputLimit ), -self.outputLimit )) # 输出限幅
-        return self.output
-        
 
-    def reset( self ):
+        self.integral_limit = 0.0
+        self.output_limit = 0.0
+
+    def set_kp(self, kp):
+        """Set the proportional gain."""
+
+        self.kp = float(kp)
+
+    def set_ki(self, ki):
+        """Set the integral gain."""
+
+        self.ki = float(ki)
+
+    def set_kd(self, kd):
+        """Set the derivative gain."""
+
+        self.kd = float(kd)
+
+    def set_dt(self, dt):
+        """Set the sample time after validating it."""
+
+        if dt <= 0.0:
+            raise ValueError('PID dt must be greater than zero')
+        self.dt = float(dt)
+
+    def set_integral_limit(self, limit):
+        """Set the symmetric integral clamp."""
+
+        self.integral_limit = abs(float(limit))
+
+    def set_output_limit(self, limit):
+        """Set the symmetric output clamp."""
+
+        self.output_limit = abs(float(limit))
+
+    def update(self, reference, actual):
+        """Update the controller from a reference and actual value."""
+
+        self.reference = float(reference)
+        return self.update_error(self.reference - float(actual))
+
+    def update_error(self, error):
+        """Update the controller from a precomputed error."""
+
+        self.error = float(error)
+        self.integral += self.error * self.dt
+        self.integral = max(
+            min(self.integral, self.integral_limit),
+            -self.integral_limit,
+        )
+        self.derivative = (self.error - self.prev_error) / self.dt
+        self.output = (
+            self.kp * self.error
+            + self.ki * self.integral
+            + self.kd * self.derivative
+        )
+        self.prev_error = self.error
+        self.output = float(
+            max(
+                min(self.output, self.output_limit),
+                -self.output_limit,
+            )
+        )
+        return self.output
+
+    def reset(self):
+        """Clear all accumulated controller state."""
+
+        self.reference = 0.0
         self.error = 0.0
         self.prev_error = 0.0
         self.integral = 0.0
         self.derivative = 0.0
         self.output = 0.0
-        
+
+    # Compatibility aliases for the previous public API.
+    setKp = set_kp
+    setKi = set_ki
+    setKd = set_kd
+    setDt = set_dt
+    setIntegralLimit = set_integral_limit
+    setOutputLimit = set_output_limit
+    update_err = update_error
