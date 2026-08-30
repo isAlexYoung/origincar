@@ -20,7 +20,7 @@
 
 其中两个核心模块具有以下特点：
 
-- **odom_test**：订阅激光雷达数据并输出里程计信息，精度较高且资源占用低。
+- **mylio**：订阅激光雷达数据并输出里程计信息，精度较高且资源占用低。
 - **qrcode**：采用 WeChat 与 pyzbar 双引擎扫码，静态扫码极限距离约 1.5 m。
 
 ## 核心功能
@@ -29,7 +29,7 @@
 | :--- | :--- |
 | `car_base` | 精简版底盘驱动 |
 | `lidar` | N10 激光雷达驱动 |
-| `odom_test` | 基于激光雷达的里程计，精度较高、轻量 |
+| `mylio` | 基于激光雷达的里程计，精度较高、轻量 |
 | `origincar_msg` | 官方消息（msg）定义 |
 | `qrcode` | WeChat + pyzbar 双引擎二维码解码，静态极限距离约 1.5 m |
 | `run_car_pkg` | 主控逻辑 |
@@ -67,7 +67,7 @@ TurnRight/
 ├── src/
 │   ├── car_base/               # 精简版底盘
 │   ├── lidar/                  # N10 激光雷达驱动
-│   ├── odom_test/              # 激光雷达里程计
+│   ├── mylio/                  # 激光雷达里程计
 │   ├── origincar_msg/          # 官方 msg
 │   ├── qrcode/                 # 二维码节点
 │   └── run_car_pkg/            # 主控逻辑
@@ -80,6 +80,16 @@ TurnRight/
 ├── run_display.sh              # 屏幕显示脚本
 └── voice.py                    # 图生文节点
 ```
+
+`run_car_pkg` 主控包内部按职责拆分：
+
+- `run_car_node.py`：ROS 话题收发、消息转换与定时调度。
+- `mission_controller.py`：任务状态机和各阶段控制流程。
+- `config.py`：ROS 参数读取、分组和启动校验。
+- `models.py`：任务状态、车辆位姿、感知快照和控制决策。
+- `geometry.py`、`path_tracking.py`：目标方位角与路径跟踪计算。
+- `lidar_avoidance.py`：前向避障、脱困方向和倒车防撞。
+- `routes.py`：任务目标点与顺、逆时针路线。
 
 ## 配置说明
 
@@ -105,9 +115,6 @@ TurnRight/
 
 - **`yolov5xworkconfig.json`**：将 `model_file` 与 `cls_names_list` 修改为实际路径。
 
-### 4. 主控节点
-
-- **`run_car_node.py`**：将 `capture_dir` 修改为实际路径。
 
 ## 编译
 
