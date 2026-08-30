@@ -7,7 +7,6 @@
   <maintainer email="root@todo.todo">root</maintainer>
   <license>Apache-2.0</license>
 
-  <!-- 编译工具依赖（Python包必须） -->
   <buildtool_depend>ament_python</buildtool_depend>
 
   <depend>rclpy</depend>
@@ -24,12 +23,10 @@
   <depend>tf2_msgs</depend>
   <depend>tf-transformations</depend>
   
-  <!-- Python系统依赖 -->
   <exec_depend>python3-numpy</exec_depend>
   <exec_depend>python3-opencv</exec_depend>
   <exec_depend>python3-pyzbar</exec_depend>
 
-  <!-- 测试依赖（可选） -->
   <test_depend>ament_copyright</test_depend>
   <test_depend>ament_flake8</test_depend>
   <test_depend>ament_pep257</test_depend>

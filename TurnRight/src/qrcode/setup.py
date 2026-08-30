@@ -12,7 +12,6 @@ setup(
         ('share/ament_index/resource_index/packages',
             ['resource/' + package_name]),
         ('share/' + package_name, ['package.xml']),
-        # ========== 核心修改1：安装模型文件到共享目录 ==========
         (os.path.join('share', package_name, 'model'), glob('qrcode/model/*')),
     ],
     install_requires=[
