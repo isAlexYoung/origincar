@@ -23,9 +23,9 @@ def generate_launch_description():
         )
     ))
     ld.add_action(Node(
-        package='odom_test',           
-        executable='odom_test_node',   
-        name='lidar_odom_node',        
+        package='mylio',           
+        executable='mylio_node',   
+        name='mylio_node',        
         output='screen',
     ))
 

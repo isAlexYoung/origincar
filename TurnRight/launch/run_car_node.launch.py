@@ -1,29 +1,23 @@
 import os
+
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription
 from launch_ros.actions import Node
-from launch.substitutions import TextSubstitution, LaunchConfiguration
-from launch.launch_description_sources import PythonLaunchDescriptionSource
-from ament_index_python import get_package_share_directory, get_package_prefix
+from ament_index_python import get_package_share_directory
 
 def generate_launch_description():
-
-    # 模型配置文件路径
     param_file_path = os.path.join(
-        get_package_share_directory('run_car_pkg'),             # 功能包名
-        'params',                                               # 文件夹名
-        'run_car_node.yaml'                                     # YAML文件名
+        get_package_share_directory('run_car_pkg'),
+        'params',
+        'run_car_node.yaml'                         
     )
-    # 逻辑节点
     run_car_node = Node(
-        package='run_car_pkg',                              # 功能包名
-        executable='run_car_node',                          # 节点可执行文件名
-        output = 'screen',
-        name='detection_node',                              # 这里定义节点名，必须与YAML中的键一致
-        parameters=[param_file_path],                       # 以列表形式传递文件路径
+        package='run_car_pkg',       
+        executable='run_car_node',
+        output='screen',
+        name='run_car_node',
+        parameters=[param_file_path],
         arguments=['--ros-args', '--log-level', 'info']
     )
-
     return LaunchDescription([
         run_car_node
     ])
