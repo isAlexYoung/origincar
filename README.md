@@ -158,3 +158,7 @@ uvicorn server:app --host 0.0.0.0 --port 8000
 ```
 
 > 请确保 PC 与小车处于同一局域网，且 `voice.py` 中的 `PC_URL` 已指向 PC 的 IP 地址。
+
+### 鸣谢
+
+感谢所有提供帮助的学长学姐及同学
