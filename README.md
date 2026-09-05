@@ -115,6 +115,9 @@ TurnRight/
 
 - **`yolov5xworkconfig.json`**：将 `model_file` 与 `cls_names_list` 修改为实际路径。
 
+### 4. mylio
+
+- final_x 与 final_y 的融合方案目前仍有缺陷。
 
 ## 编译
 
